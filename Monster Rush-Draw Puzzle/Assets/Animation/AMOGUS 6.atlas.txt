@@ -1,0 +1,1668 @@
+AMOGUS 6.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+BODY DEAD BLUE
+bounds:607,114,185,177
+Captain_blue/BODY DEAD
+bounds:607,114,185,177
+BODY DEAD RED
+bounds:1531,96,185,177
+Captain_red/BODY DEAD RED
+bounds:1531,96,185,177
+Captain_blue/ACC 1
+bounds:939,1874,46,48
+offsets:1,0,47,48
+rotate:90
+Captain_yellow/ACC 1
+bounds:939,1874,46,48
+offsets:1,0,47,48
+rotate:90
+Captain_blue/BODY UPPER
+bounds:1329,334,232,153
+Captain_blue/FACE
+bounds:1809,1277,131,81
+Captain_yellow/FACE
+bounds:1809,1277,131,81
+Captain_blue/L ARM
+bounds:438,1763,60,68
+rotate:90
+Captain_blue/L FEET
+bounds:1052,1686,64,87
+rotate:90
+Captain_blue/L HAND
+bounds:905,1183,86,88
+offsets:1,0,87,88
+Captain_blue/L LEG
+bounds:1759,1957,44,84
+rotate:90
+Captain_blue/R ARM
+bounds:1331,1861,49,69
+rotate:90
+Captain_blue/R FEET
+bounds:1141,1682,64,87
+rotate:90
+Captain_blue/R HAND
+bounds:1230,1682,64,96
+offsets:0,0,64,97
+rotate:90
+Captain_blue/R LEG
+bounds:1845,1957,44,78
+offsets:0,0,45,79
+rotate:90
+Captain_red/BODY UPPER
+bounds:861,417,232,151
+Captain_red/L ARM
+bounds:508,1763,60,68
+rotate:90
+Captain_red/L FEET
+bounds:1328,1682,64,87
+rotate:90
+Captain_red/L HAND
+bounds:1356,1176,86,88
+offsets:1,0,87,88
+rotate:90
+Captain_red/L LEG
+bounds:1925,1957,44,84
+rotate:90
+Captain_red/R ARM
+bounds:1402,1861,49,69
+rotate:90
+Captain_red/R FEET
+bounds:1417,1682,64,87
+rotate:90
+Captain_red/R HAND
+bounds:1506,1682,64,96
+offsets:0,0,64,97
+rotate:90
+Captain_red/R LEG
+bounds:2,1922,44,78
+offsets:0,0,45,79
+rotate:90
+Captain_yellow/BODY UPPER YELLOW
+bounds:1095,385,232,151
+Captain_yellow/L ARM
+bounds:578,1763,60,68
+rotate:90
+Captain_yellow/L FEET
+bounds:1604,1681,64,87
+rotate:90
+Captain_yellow/L HAND
+bounds:1446,1175,86,88
+offsets:1,0,87,88
+rotate:90
+Captain_yellow/L LEG
+bounds:82,1922,44,84
+rotate:90
+Captain_yellow/R ARM
+bounds:1473,1861,49,69
+rotate:90
+Captain_yellow/R FEET
+bounds:1693,1681,64,87
+rotate:90
+Captain_yellow/R HAND
+bounds:1782,1681,64,96
+offsets:0,0,64,97
+rotate:90
+Captain_yellow/R LEG
+bounds:168,1922,44,78
+offsets:0,0,45,79
+rotate:90
+Cowboy_blue/BODY UP
+bounds:1254,16,235,158
+Cowboy_blue/L ARM
+bounds:1979,1849,60,67
+rotate:90
+Cowboy_blue/L FEET
+bounds:1880,1670,64,88
+rotate:90
+Cowboy_blue/L HAND
+bounds:1942,1273,85,88
+offsets:1,0,86,88
+rotate:90
+Cowboy_blue/L LEG
+bounds:248,1922,44,83
+rotate:90
+Cowboy_blue/R ARM
+bounds:1544,1861,49,72
+offsets:0,1,49,73
+rotate:90
+Cowboy_red/R ARM
+bounds:1544,1861,49,72
+offsets:0,1,49,73
+rotate:90
+Cowboy_yellow/R ARM
+bounds:1544,1861,49,72
+offsets:0,1,49,73
+rotate:90
+Cowboy_blue/R FEET
+bounds:2,1646,64,88
+rotate:90
+Cowboy_blue/R HAND
+bounds:92,1641,64,97
+offsets:0,0,64,98
+rotate:90
+Cowboy_blue/R LEG
+bounds:1079,2003,43,77
+offsets:0,0,44,78
+rotate:90
+Cowboy_red/L ARM
+bounds:648,1763,60,67
+rotate:90
+Cowboy_red/L FEET
+bounds:191,1641,64,88
+rotate:90
+Cowboy_red/L HAND
+bounds:1392,1264,85,88
+offsets:1,0,86,88
+rotate:90
+Cowboy_red/L LEG
+bounds:333,1922,44,83
+rotate:90
+Cowboy_red/R FEET
+bounds:281,1641,64,88
+rotate:90
+Cowboy_red/R HAND
+bounds:371,1635,64,97
+offsets:0,0,64,98
+rotate:90
+Cowboy_yellow/R HAND
+bounds:371,1635,64,97
+offsets:0,0,64,98
+rotate:90
+Cowboy_red/R LEG
+bounds:1158,2003,43,77
+offsets:0,0,44,78
+rotate:90
+Cowboy_yellow/BODY DOWN
+bounds:1182,964,210,112
+Cowboy_yellow/L ARM
+bounds:717,1763,60,67
+rotate:90
+Cowboy_yellow/L FEET
+bounds:470,1635,64,88
+rotate:90
+Cowboy_yellow/L HAND
+bounds:1482,1263,85,88
+offsets:1,0,86,88
+rotate:90
+Cowboy_yellow/L LEG
+bounds:418,1922,44,83
+rotate:90
+Cowboy_yellow/R FEET
+bounds:560,1635,64,88
+rotate:90
+Cowboy_yellow/R LEG
+bounds:1237,2003,43,77
+offsets:0,0,44,78
+rotate:90
+Goku_all/FACE BLU
+bounds:199,1299,129,70
+offsets:0,1,129,72
+Goku_all/FACE RED
+bounds:650,1635,127,64
+Goku_all/FACE YE
+bounds:1482,1350,128,65
+Goku_all/L ARM
+bounds:786,1763,60,68
+rotate:90
+Goku_all/L FOOT
+bounds:779,1633,64,88
+rotate:90
+Goku_all/L HAND
+bounds:1572,1263,85,88
+offsets:1,0,86,88
+rotate:90
+Goku_all/L LEG
+bounds:1160,1865,45,83
+rotate:90
+Goku_all/R ARM
+bounds:1618,1861,49,72
+offsets:0,1,49,73
+rotate:90
+Goku_all/R FOOT
+bounds:869,1625,64,88
+rotate:90
+Goku_all/R HAND
+bounds:1137,1616,64,97
+offsets:0,0,64,98
+rotate:90
+Goku_all/R LEG
+bounds:1316,2003,43,78
+offsets:0,0,44,79
+rotate:90
+Ironman_all/BODY UP BLUE
+bounds:828,261,232,154
+Ironman_all/BODY UP RED
+bounds:1062,229,231,154
+Ironman_all/L ARM BLUE
+bounds:856,1761,60,68
+rotate:90
+Ironman_all/L ARM RED
+bounds:926,1753,60,68
+rotate:90
+Ironman_all/L ELG RED
+bounds:503,1922,44,84
+rotate:90
+Ironman_all/L FEET BLUE
+bounds:1970,1647,64,87
+Ironman_all/L FEET RED
+bounds:959,1625,64,87
+rotate:90
+Ironman_all/L HAND BLUE
+bounds:1536,1175,86,89
+offsets:1,0,87,89
+rotate:90
+Ironman_all/L HAND RED
+bounds:1627,1164,86,88
+offsets:1,0,87,88
+rotate:90
+Ironman_all/L LEG BLUE
+bounds:589,1922,44,84
+rotate:90
+Ironman_all/R ARM BLUE
+bounds:1692,1860,49,69
+offsets:1,0,50,69
+rotate:90
+Ironman_all/R ARM RED
+bounds:1763,1860,49,69
+rotate:90
+Ironman_all/R FEET BLUE
+bounds:1048,1620,64,87
+rotate:90
+Ironman_all/R FEET RED
+bounds:1968,1558,65,87
+Ironman_all/R HAND BLUE
+bounds:1236,1616,64,97
+offsets:0,0,64,98
+rotate:90
+Ironman_all/R HAND RED
+bounds:1335,1616,64,97
+offsets:0,0,64,98
+rotate:90
+Ironman_all/R LEG BLUE
+bounds:1396,2003,43,77
+offsets:0,0,44,78
+rotate:90
+Ironman_all/R LEG RED
+bounds:675,1922,44,78
+offsets:0,0,45,79
+rotate:90
+Ironman_yellow/BODY UPPER
+bounds:1751,217,232,154
+Ironman_yellow/FACE
+bounds:330,1290,129,79
+Ironman_yellow/L ARM
+bounds:996,1753,60,68
+rotate:90
+Ironman_yellow/L FEET
+bounds:1434,1616,64,87
+rotate:90
+Ironman_yellow/L HAND
+bounds:1662,1252,85,89
+offsets:1,0,86,89
+rotate:90
+Ironman_yellow/L LEG
+bounds:1245,1865,45,84
+rotate:90
+Ironman_yellow/R ARM
+bounds:1834,1860,49,69
+rotate:90
+Ironman_yellow/R FEET
+bounds:1523,1615,64,87
+rotate:90
+Ironman_yellow/R HAND
+bounds:1612,1350,65,97
+offsets:0,0,65,98
+rotate:90
+Ironman_yellow/R LEG
+bounds:1475,2003,43,78
+offsets:0,0,44,79
+rotate:90
+Mafia_blue/HAT
+bounds:1586,876,236,121
+offsets:18,0,254,121
+Mafia_blue/L ARM
+bounds:1066,1752,60,68
+rotate:90
+Mafia_blue/L FEET
+bounds:1612,1615,64,87
+rotate:90
+Mafia_blue/L HAND
+bounds:2,1135,86,88
+offsets:1,0,87,88
+rotate:90
+Mafia_blue/L LEG
+bounds:755,1922,44,84
+rotate:90
+Mafia_blue/R ARM
+bounds:1905,1860,49,72
+offsets:0,1,49,73
+rotate:90
+Mafia_blue/R FEET
+bounds:1701,1615,64,87
+rotate:90
+Mafia_blue/R HAND
+bounds:1711,1339,65,96
+offsets:0,0,65,97
+rotate:90
+Mafia_red/BODY UP
+bounds:1784,526,227,150
+Mafia_red/FACE
+bounds:860,1273,131,81
+Mafia_red/HAT
+bounds:660,866,236,121
+offsets:18,0,254,121
+Mafia_red/L ARM
+bounds:1136,1752,60,68
+rotate:90
+Mafia_red/L FOOT
+bounds:1790,1615,64,87
+rotate:90
+Mafia_red/L HAND
+bounds:2,1223,85,88
+offsets:1,0,86,88
+rotate:90
+Mafia_red/L LEG
+bounds:841,1922,44,84
+rotate:90
+Mafia_yellow/L LEG
+bounds:841,1922,44,84
+rotate:90
+Mafia_red/R ARM
+bounds:2,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Mafia_red/R FOOT
+bounds:1879,1604,64,87
+rotate:90
+Mafia_red/R HAND
+bounds:91,1575,64,96
+offsets:0,0,64,97
+rotate:90
+Mafia_red/R LEG
+bounds:1555,2003,43,78
+offsets:0,0,44,79
+rotate:90
+Mafia_yellow/BODY UP
+bounds:1718,58,234,157
+Mafia_yellow/HAT
+bounds:898,849,236,121
+offsets:18,0,254,121
+Mafia_yellow/L ARM
+bounds:1206,1748,60,68
+rotate:90
+Mafia_yellow/L FEET
+bounds:2,1580,64,87
+rotate:90
+Mafia_yellow/L HAND
+bounds:92,1223,85,88
+offsets:1,0,86,88
+rotate:90
+Mafia_yellow/R ARM
+bounds:76,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Mafia_yellow/R FOOT
+bounds:189,1575,64,87
+rotate:90
+Mafia_yellow/R HAND
+bounds:368,1569,64,96
+offsets:0,0,64,97
+rotate:90
+Mafia_yellow/R LEG
+bounds:1635,2003,43,78
+offsets:0,0,44,79
+rotate:90
+Ninja_blue/HAIR
+bounds:150,1769,142,54
+Ninja_blue/L ARM
+bounds:1276,1748,60,68
+rotate:90
+Ninja_blue/L FEET
+bounds:278,1575,64,88
+rotate:90
+Ninja_blue/L HAND
+bounds:92,1135,86,88
+offsets:1,0,87,88
+rotate:90
+Ninja_blue/L LEG
+bounds:927,1922,44,83
+rotate:90
+Ninja_blue/R ARM
+bounds:150,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Ninja_blue/R FEET
+bounds:466,1569,64,88
+rotate:90
+Ninja_blue/R HAND
+bounds:556,1569,64,97
+offsets:0,0,64,98
+rotate:90
+Ninja_blue/R LEG
+bounds:1715,2003,43,78
+offsets:0,0,44,79
+rotate:90
+Ninja_red/L ARM
+bounds:1346,1748,60,68
+rotate:90
+Ninja_red/L FEET
+bounds:655,1569,64,88
+rotate:90
+Ninja_red/L HAND
+bounds:182,1212,85,88
+offsets:1,0,86,88
+rotate:90
+Ninja_red/L LEG
+bounds:1012,1912,44,83
+rotate:90
+Ninja_red/R ARM
+bounds:224,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Ninja_red/R FOOT
+bounds:745,1567,64,88
+rotate:90
+Ninja_red/R HAND
+bounds:835,1559,64,97
+offsets:0,0,64,98
+rotate:90
+Ninja_red/R LEG
+bounds:1795,2003,43,78
+offsets:0,0,44,79
+rotate:90
+Ninja_yellow/HAIR
+bounds:294,1769,142,54
+Ninja_yellow/L ARM
+bounds:1416,1748,60,68
+rotate:90
+Ninja_yellow/L FEET
+bounds:934,1559,64,88
+rotate:90
+Ninja_yellow/L HAND
+bounds:272,1203,85,88
+offsets:1,0,86,88
+rotate:90
+Ninja_yellow/L LEG
+bounds:1097,1912,44,83
+rotate:90
+Ninja_yellow/R ARM
+bounds:298,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Ninja_yellow/R FEET
+bounds:1024,1554,64,88
+rotate:90
+Ninja_yellow/R HAND
+bounds:1114,1550,64,97
+offsets:0,0,64,98
+rotate:90
+Ninja_yellow/R LEG
+bounds:1875,2003,43,78
+offsets:0,0,44,79
+rotate:90
+Pikachu_blue/EAR
+bounds:1824,826,198,132
+Pikachu_blue/L ARM
+bounds:1486,1748,60,68
+rotate:90
+Pikachu_blue/L FOOT
+bounds:1213,1550,64,88
+rotate:90
+Pikachu_blue/L HAND
+bounds:362,1203,85,88
+offsets:1,0,86,88
+rotate:90
+Pikachu_blue/L LEG
+bounds:1182,1912,44,83
+rotate:90
+Pikachu_blue/R ARM
+bounds:372,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Pikachu_blue/R FOOT
+bounds:1303,1550,64,88
+rotate:90
+Pikachu_blue/R HAND
+bounds:1393,1550,64,97
+offsets:0,0,64,98
+rotate:90
+Pikachu_blue/R LEG
+bounds:1955,2003,43,78
+offsets:0,0,44,79
+rotate:90
+Pikachu_blue/TAIL
+bounds:1136,686,146,246
+rotate:90
+Pikachu_red/EAR
+bounds:1584,742,198,132
+Pikachu_red/L ARM
+bounds:1556,1748,60,68
+rotate:90
+Pikachu_red/L FOOT
+bounds:1492,1549,64,88
+rotate:90
+Pikachu_red/L HAND
+bounds:452,1202,85,88
+offsets:1,0,86,88
+rotate:90
+Pikachu_red/L LEG
+bounds:1267,1912,44,83
+rotate:90
+Pikachu_red/R ARM
+bounds:446,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Pikachu_red/R FOOT
+bounds:1582,1549,64,88
+rotate:90
+Pikachu_red/R HAND
+bounds:1672,1549,64,97
+offsets:0,0,64,98
+rotate:90
+Pikachu_red/R LEG
+bounds:2,1968,43,78
+offsets:0,0,44,79
+rotate:90
+Pikachu_red/TAIL
+bounds:1784,678,146,246
+rotate:90
+Pikachu_yellow/EAR
+bounds:648,732,198,132
+Pikachu_yellow/L ARM
+bounds:1626,1747,60,68
+rotate:90
+Pikachu_yellow/L FOOT
+bounds:1771,1549,64,88
+rotate:90
+Pikachu_yellow/L HAND
+bounds:542,1200,85,88
+offsets:1,0,86,88
+rotate:90
+Pikachu_yellow/L LEG
+bounds:1352,1912,44,83
+rotate:90
+Pikachu_yellow/R ARM
+bounds:520,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Pikachu_yellow/R FOOT
+bounds:1861,1538,64,88
+rotate:90
+Pikachu_yellow/R HAND
+bounds:91,1509,64,97
+offsets:0,0,64,98
+rotate:90
+Pikachu_yellow/R LEG
+bounds:82,1968,43,78
+offsets:0,0,44,79
+rotate:90
+Pikachu_yellow/TAIL
+bounds:1113,538,146,246
+rotate:90
+Police_blue/FACE
+bounds:190,1509,123,64
+offsets:0,1,123,65
+Police_blue/HAT
+bounds:1394,796,188,152
+offsets:0,67,188,219
+Police_blue/L ARM
+bounds:1696,1747,60,68
+rotate:90
+Police_blue/L FOOT
+bounds:315,1503,64,88
+offsets:0,1,64,89
+rotate:90
+Police_blue/L HAND
+bounds:272,1115,86,89
+offsets:1,0,87,89
+rotate:90
+Police_blue/L LEG
+bounds:1437,1912,44,83
+rotate:90
+Police_blue/R ARM
+bounds:594,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Police_blue/R FOOT
+bounds:405,1503,64,88
+rotate:90
+Police_blue/R HAND
+bounds:2,1310,65,96
+offsets:0,0,65,97
+rotate:90
+Police_blue/R LEG
+bounds:162,1968,43,78
+offsets:0,0,44,79
+rotate:90
+Police_red/HAT
+bounds:1384,642,188,152
+offsets:0,67,188,219
+Police_red/L ARM
+bounds:1766,1747,60,68
+rotate:90
+Police_red/L FEET
+bounds:495,1503,64,88
+rotate:90
+Police_red/L HAND
+bounds:632,1200,85,89
+offsets:1,0,86,89
+rotate:90
+Police_red/L LEG
+bounds:1522,1912,44,83
+rotate:90
+Police_red/R ARM
+bounds:668,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Police_red/R FOOT
+bounds:585,1503,64,88
+rotate:90
+Police_red/R HAND
+bounds:675,1501,64,96
+offsets:0,0,64,97
+rotate:90
+Police_red/R LEG
+bounds:242,1968,43,78
+offsets:0,0,44,79
+rotate:90
+Police_yellow/HAT
+bounds:1572,438,188,152
+offsets:0,67,188,219
+Police_yellow/L ARM
+bounds:1836,1747,60,68
+rotate:90
+Police_yellow/L FOOT
+bounds:773,1493,64,88
+rotate:90
+Police_yellow/L HAND
+bounds:723,1192,85,89
+offsets:1,0,86,89
+rotate:90
+Police_yellow/L LEG
+bounds:1607,1912,44,83
+rotate:90
+Police_yellow/R ARM
+bounds:742,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Police_yellow/R FOOT
+bounds:863,1493,64,88
+rotate:90
+Police_yellow/R HAND
+bounds:953,1488,64,96
+offsets:0,0,64,97
+rotate:90
+Police_yellow/R LEG
+bounds:322,1968,43,78
+offsets:0,0,44,79
+rotate:90
+Robot_all/L ARM
+bounds:1906,1736,60,68
+rotate:90
+Robot_all/L FEET
+bounds:1951,1492,64,88
+rotate:90
+Robot_all/L HAND
+bounds:182,1124,86,88
+offsets:1,0,87,88
+rotate:90
+Robot_all/L LEG
+bounds:1692,1911,44,83
+rotate:90
+Robot_all/R ARM
+bounds:816,1825,49,72
+offsets:0,1,49,73
+rotate:90
+Robot_all/R FEET
+bounds:2,1514,64,87
+rotate:90
+Robot_all/R HAND
+bounds:1051,1484,64,97
+offsets:0,0,64,98
+rotate:90
+Robot_all/R LEG
+bounds:402,1968,43,77
+offsets:0,0,44,78
+rotate:90
+Robot_blue/L ARM
+bounds:1976,1736,60,68
+rotate:90
+Robot_blue/L FEET
+bounds:1150,1484,64,88
+rotate:90
+Robot_blue/L HADN
+bounds:363,1114,86,88
+offsets:1,0,87,88
+rotate:90
+Robot_blue/L LEG
+bounds:1777,1911,44,83
+rotate:90
+Robot_blue/R ARM
+bounds:890,1823,49,72
+offsets:0,1,49,73
+rotate:90
+Robot_blue/R FEET
+bounds:1240,1484,64,87
+rotate:90
+Robot_blue/R HAND
+bounds:1329,1484,64,97
+offsets:0,0,64,98
+rotate:90
+Robot_blue/R LEG
+bounds:481,1968,43,77
+offsets:0,0,44,78
+rotate:90
+Robot_yellow/L ARM
+bounds:2,1712,60,68
+rotate:90
+Robot_yellow/L FOOT
+bounds:1428,1483,64,88
+rotate:90
+Robot_yellow/L HAND
+bounds:453,1112,86,88
+offsets:1,0,87,88
+Robot_yellow/L LEG
+bounds:1862,1911,44,83
+rotate:90
+Robot_yellow/R ARM
+bounds:964,1815,49,72
+offsets:0,1,49,73
+rotate:90
+Robot_yellow/R FEET
+bounds:1518,1483,64,87
+rotate:90
+Robot_yellow/R HAND
+bounds:1607,1483,64,97
+offsets:0,0,64,98
+rotate:90
+Robot_yellow/R LEG
+bounds:560,1968,43,77
+offsets:0,0,44,78
+rotate:90
+Samurai_blue/L ARM
+bounds:72,1712,60,68
+rotate:90
+Samurai_blue/L FEET
+bounds:1706,1483,64,88
+rotate:90
+Samurai_blue/L HAND
+bounds:541,1112,86,88
+offsets:1,0,87,88
+rotate:90
+Samurai_blue/L LEG
+bounds:1947,1911,44,83
+rotate:90
+Samurai_blue/R ARM
+bounds:1038,1815,49,72
+offsets:1,1,50,73
+rotate:90
+Samurai_blue/R FEET
+bounds:1796,1472,64,88
+rotate:90
+Samurai_blue/R HAND
+bounds:91,1443,64,97
+offsets:0,0,64,98
+rotate:90
+Samurai_blue/R LEG
+bounds:639,1968,43,78
+offsets:0,0,44,79
+rotate:90
+Samurai_red/BODY UP
+bounds:1762,373,234,151
+Samurai_red/L ARM
+bounds:142,1707,60,68
+rotate:90
+Samurai_red/L FOOT
+bounds:190,1443,64,88
+rotate:90
+Samurai_red/L HAND
+bounds:631,1112,86,88
+offsets:1,0,87,88
+rotate:90
+Samurai_red/L LEG
+bounds:2,1876,44,83
+rotate:90
+Samurai_red/R ARM
+bounds:1112,1814,49,71
+offsets:1,1,50,72
+rotate:90
+Samurai_red/R FEET
+bounds:280,1437,64,88
+rotate:90
+Samurai_red/R HAND
+bounds:370,1437,64,97
+offsets:0,0,64,98
+rotate:90
+Samurai_red/R LEG
+bounds:719,1968,43,78
+offsets:0,0,44,79
+rotate:90
+Samurai_yellow/BOPDY UP
+bounds:1295,176,234,156
+Samurai_yellow/L ARM
+bounds:212,1707,60,68
+rotate:90
+Samurai_yellow/L FEET
+bounds:469,1437,64,88
+rotate:90
+Samurai_yellow/L HAND
+bounds:721,1104,86,88
+offsets:1,0,87,88
+rotate:90
+Samurai_yellow/L LEG
+bounds:87,1876,44,83
+rotate:90
+Samurai_yellow/R ARM
+bounds:1185,1814,49,72
+offsets:1,1,50,73
+rotate:90
+Samurai_yellow/R FOOT
+bounds:559,1437,64,88
+rotate:90
+Samurai_yellow/R HAND
+bounds:649,1435,64,97
+offsets:0,0,64,98
+rotate:90
+Samurai_yellow/R LEG
+bounds:799,1968,43,78
+offsets:0,0,44,79
+rotate:90
+Soldier_blue/FACE
+bounds:993,1269,131,81
+Soldier_blue/HELMET
+bounds:182,1014,186,98
+Soldier_blue/L ARM
+bounds:282,1707,60,68
+rotate:90
+Soldier_blue/L FEET
+bounds:748,1427,64,88
+rotate:90
+Soldier_blue/L HAND
+bounds:1717,1102,86,89
+offsets:1,0,87,89
+rotate:90
+Soldier_blue/L LEG
+bounds:172,1876,44,83
+rotate:90
+Soldier_blue/R ARM
+bounds:1259,1810,49,72
+offsets:0,1,49,73
+rotate:90
+Soldier_blue/R FEET
+bounds:838,1427,64,88
+rotate:90
+Soldier_blue/R HAND
+bounds:1886,1426,64,97
+offsets:0,0,64,98
+rotate:90
+Soldier_blue/R LEG
+bounds:879,1968,43,78
+offsets:0,0,44,79
+rotate:90
+Soldier_red/FACE
+bounds:1126,1269,131,81
+Soldier_red/HELMET
+bounds:370,1012,186,98
+Soldier_red/L ARM
+bounds:352,1707,60,68
+rotate:90
+Soldier_red/L FEET
+bounds:928,1422,64,88
+rotate:90
+Soldier_red/L HAND
+bounds:1753,1190,85,89
+offsets:1,0,86,89
+rotate:90
+Soldier_red/L LEG
+bounds:257,1876,44,83
+rotate:90
+Soldier_red/R ARM
+bounds:1333,1810,49,72
+offsets:0,1,49,73
+rotate:90
+Soldier_red/R FEET
+bounds:1018,1418,64,88
+rotate:90
+Soldier_red/R HAND
+bounds:1108,1418,64,97
+offsets:0,0,64,98
+rotate:90
+Soldier_red/R LEG
+bounds:959,1968,43,78
+offsets:0,0,44,79
+rotate:90
+Soldier_yellow/FACE
+bounds:1259,1268,131,81
+Soldier_yellow/HELMET
+bounds:558,1004,186,98
+Soldier_yellow/L ARM
+bounds:422,1701,60,68
+rotate:90
+Soldier_yellow/L FEET
+bounds:1207,1418,64,88
+rotate:90
+Soldier_yellow/L HAND
+bounds:1844,1190,85,89
+offsets:1,0,86,89
+rotate:90
+Soldier_yellow/L LEG
+bounds:342,1876,44,83
+rotate:90
+Soldier_yellow/R ARM
+bounds:1407,1810,49,72
+offsets:0,1,49,73
+rotate:90
+Soldier_yellow/R FEET
+bounds:1297,1418,64,88
+rotate:90
+Soldier_yellow/R HAND
+bounds:1387,1417,64,97
+offsets:0,0,64,98
+rotate:90
+Soldier_yellow/R LEG
+bounds:1039,1958,43,78
+offsets:0,0,44,79
+rotate:90
+Spider_all/BLU UP
+bounds:2,507,219,150
+Spider_all/FACE
+bounds:901,1092,151,88
+Spider_all/L ARM BLU
+bounds:492,1701,60,68
+rotate:90
+Spider_all/L ARM RED
+bounds:562,1701,60,68
+rotate:90
+Spider_all/L ARM YE
+bounds:632,1701,60,68
+rotate:90
+Spider_all/L FEET BLU
+bounds:1486,1417,64,88
+rotate:90
+Spider_all/L FEET RED
+bounds:1576,1417,64,88
+rotate:90
+Spider_all/L FEET YE
+bounds:1666,1417,64,88
+rotate:90
+Spider_all/L HAND BLU
+bounds:814,1186,85,89
+offsets:1,0,86,89
+rotate:90
+Spider_all/L HAND RED
+bounds:1808,1102,86,89
+offsets:1,0,87,89
+rotate:90
+Spider_all/L HAND YE
+bounds:1935,1186,85,89
+offsets:1,0,86,89
+rotate:90
+Spider_all/L LEG BLU
+bounds:427,1876,44,83
+rotate:90
+Spider_all/L LEG RED
+bounds:512,1876,44,83
+rotate:90
+Spider_all/L LEG YE
+bounds:597,1876,44,83
+rotate:90
+Spider_all/R ARM BLU
+bounds:1481,1810,49,72
+offsets:0,1,49,73
+rotate:90
+Spider_all/R ARM RED
+bounds:1555,1810,49,72
+offsets:0,1,49,73
+rotate:90
+Spider_all/R ARM YE
+bounds:1629,1809,49,72
+offsets:0,1,49,73
+rotate:90
+Spider_all/R FEET BLU
+bounds:1756,1406,64,88
+rotate:90
+Spider_all/R FEET RED
+bounds:91,1377,64,88
+rotate:90
+Spider_all/R FEET YE
+bounds:181,1377,64,88
+rotate:90
+Spider_all/R HAND BLU
+bounds:271,1371,64,97
+offsets:0,0,64,98
+rotate:90
+Spider_all/R HAND RED
+bounds:100,1310,65,97
+offsets:0,0,65,98
+rotate:90
+Spider_all/R HAND YE
+bounds:370,1371,64,97
+offsets:0,0,64,98
+rotate:90
+Spider_all/R LEG BLU
+bounds:1119,1958,43,78
+offsets:0,0,44,79
+rotate:90
+Spider_all/R LEG RED
+bounds:1199,1958,43,78
+offsets:0,0,44,79
+rotate:90
+Spider_all/R LEG YE
+bounds:1279,1958,43,78
+offsets:0,0,44,79
+rotate:90
+Spider_all/RED UP
+bounds:2,354,219,151
+Spider_all/YE UP
+bounds:223,471,219,150
+Superman_all/BODY UP BL
+bounds:901,570,210,147
+Superman_all/BODY UP RE
+bounds:1574,592,208,148
+Superman_all/BODY UP YE
+bounds:1361,489,209,151
+Superman_all/L ARM BL
+bounds:702,1701,60,68
+rotate:90
+Superman_all/L ARM RE
+bounds:772,1701,60,68
+rotate:90
+Superman_all/L ARM YE
+bounds:842,1699,60,68
+rotate:90
+Superman_all/L FEET BL
+bounds:469,1371,64,88
+rotate:90
+Superman_all/L FEET RE
+bounds:2,1448,64,87
+rotate:90
+Superman_all/L FEET YE
+bounds:2,1382,64,87
+rotate:90
+Superman_all/L HAND BL
+bounds:811,1098,86,88
+offsets:1,0,87,88
+rotate:90
+Superman_all/L HAND RE
+bounds:993,1182,85,88
+offsets:1,0,86,88
+rotate:90
+Superman_all/L HAND YE
+bounds:1083,1182,85,89
+offsets:1,0,86,89
+rotate:90
+Superman_all/L LEG BL
+bounds:682,1876,44,83
+rotate:90
+Superman_all/L LEG RE
+bounds:767,1876,44,84
+rotate:90
+Superman_all/L LEG YE
+bounds:853,1876,44,84
+rotate:90
+Superman_all/R ARM BL
+bounds:1703,1809,49,71
+offsets:0,1,49,72
+rotate:90
+Superman_all/R ARM RE
+bounds:1776,1809,49,72
+offsets:0,1,49,73
+rotate:90
+Superman_all/R ARM YE
+bounds:1850,1809,49,72
+offsets:0,1,49,73
+rotate:90
+Superman_all/R FEET BL
+bounds:559,1371,64,88
+rotate:90
+Superman_all/R FEET RE
+bounds:649,1369,64,87
+rotate:90
+Superman_all/R FOOT YE
+bounds:738,1361,64,87
+rotate:90
+Superman_all/R HAND BL
+bounds:827,1361,64,97
+offsets:0,0,64,98
+rotate:90
+Superman_all/R HAND RE
+bounds:1846,1360,64,97
+offsets:0,0,64,98
+rotate:90
+Superman_all/R HAND YE
+bounds:1945,1360,64,97
+offsets:0,0,64,98
+rotate:90
+Superman_all/R LEG BL
+bounds:1359,1958,43,78
+offsets:0,0,44,79
+rotate:90
+Superman_all/R LEG RE
+bounds:1439,1958,43,78
+offsets:0,0,44,79
+rotate:90
+Superman_all/R LEG YE
+bounds:1519,1958,43,78
+offsets:0,0,44,79
+rotate:90
+Thor_all/FACE RED
+bounds:461,1289,131,80
+Thor_all/FACE YE
+bounds:594,1287,131,80
+Thor_all/R ARM RED
+bounds:1924,1798,49,72
+offsets:0,1,49,73
+rotate:90
+Thor_blue/FACE
+bounds:727,1279,131,80
+Thor_blue/L ARM
+bounds:912,1691,60,68
+rotate:90
+Thor_blue/L FEET
+bounds:926,1356,64,87
+rotate:90
+Thor_blue/L HAND
+bounds:1174,1181,85,89
+offsets:1,0,86,89
+rotate:90
+Thor_blue/L LEG
+bounds:989,1866,44,84
+rotate:90
+Thor_blue/R ARM
+bounds:2,1774,49,72
+offsets:0,1,49,73
+rotate:90
+Thor_blue/R FEET
+bounds:1015,1352,64,87
+rotate:90
+Thor_blue/R HAND
+bounds:1104,1352,64,97
+offsets:0,0,64,98
+rotate:90
+Thor_blue/R LEG
+bounds:1599,1958,43,78
+offsets:0,0,44,79
+rotate:90
+Warrior_all/BODY UP
+bounds:1031,71,221,156
+Warrior_all/BODY UP RE
+bounds:794,103,235,156
+Warrior_all/L ARM
+bounds:982,1691,60,68
+rotate:90
+Warrior_all/L FEET
+bounds:1203,1352,64,88
+rotate:90
+Warrior_all/L HAND
+bounds:1265,1181,85,89
+offsets:1,0,86,89
+rotate:90
+Warrior_all/L LEG
+bounds:1075,1866,44,83
+rotate:90
+Warrior_all/R ARM
+bounds:1383,1351,64,97
+offsets:0,0,64,98
+rotate:90
+Warrior_all/R FEET
+bounds:1293,1352,64,88
+rotate:90
+Warrior_all/R HAND
+bounds:76,1774,49,72
+offsets:0,1,49,73
+rotate:90
+Warrior_all/R LEG
+bounds:1679,1958,43,78
+offsets:0,0,44,79
+rotate:90
+Weapon/AK47/blue_ak
+bounds:848,719,286,128
+Weapon/AK47/red_ak
+bounds:325,623,286,128
+Weapon/AK47/yellow_ak
+bounds:613,589,286,128
+Weapon/AWP/blue_awp
+bounds:444,456,415,131
+Weapon/AWP/red_awp
+bounds:223,323,415,131
+Weapon/AWP/yellow_awp
+bounds:190,190,415,131
+Weapon/CANNON/blue_lasercanon
+bounds:2,778,321,117
+Weapon/CANNON/red_sasercanon
+bounds:325,753,321,117
+Weapon/CANNON/yellow_lasercanon
+bounds:2,659,321,117
+Weapon/FX 1
+bounds:1136,834,256,128
+Weapon/FX/Layer 1
+bounds:2,904,126,136
+rotate:90
+Weapon/FX/Layer 2
+bounds:524,872,134,130
+Weapon/FX/Layer 3
+bounds:1852,960,112,113
+rotate:90
+Weapon/Gun/blue_lasergun
+bounds:1394,950,190,115
+Weapon/Gun/blue_moneygun
+bounds:1899,1074,126,110
+Weapon/Gun/red_lasergun
+bounds:140,897,190,115
+Weapon/Gun/red_moneygun
+bounds:926,980,126,110
+Weapon/Gun/yelllow_moneygun
+bounds:1054,972,126,110
+Weapon/Gun/yellow_lasergun
+bounds:332,895,190,115
+Weapon/Machette/blue_bigknife
+bounds:640,293,161,186
+rotate:90
+Weapon/Machette/red_bigknife
+bounds:1563,275,161,186
+rotate:90
+Weapon/Machette/yellow_bigknife
+bounds:2,191,161,186
+rotate:90
+Weapon/Magnum/blue_magnum
+bounds:2,1032,178,101
+Weapon/Magnum/red_magnum
+bounds:1672,999,178,101
+Weapon/Magnum/yellow_magnum
+bounds:746,989,178,101
+Weapon/Saber/blue_lightsaber
+bounds:2,2013,33,357
+rotate:90
+Weapon/Saber/red_lightsaber
+bounds:361,2013,33,357
+rotate:90
+Weapon/Saber/yellow_lightsaber
+bounds:720,2013,33,357
+rotate:90
+Weapon/Sword/blue_sword
+bounds:2,44,144,529
+rotate:90
+Weapon/USP/blue_usp
+bounds:1054,1084,204,95
+Weapon/USP/red_usp
+bounds:1260,1078,204,95
+Weapon/USP/yellow_usp
+bounds:1466,1067,204,95
+
+AMOGUS 6_2.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+BODY DEAD YELLOW
+bounds:1333,1701,185,177
+Captain_yellow/BODY DEAD YELLOW
+bounds:1333,1701,185,177
+Captain_blue/BODY DOWN
+bounds:847,541,210,200
+Captain_red/BODY DOWN
+bounds:1694,527,210,202
+Captain_yellow/BODY DOWN YELLOW
+bounds:424,360,210,203
+Cowboy_blue/BODY DOWN
+bounds:425,766,210,197
+Cowboy_blue/HELMET
+bounds:238,1721,285,173
+Cowboy_red/BODY DOWN
+bounds:2,775,210,196
+Cowboy_red/BODY UP
+bounds:1763,1878,230,162
+Cowboy_red/HELMET
+bounds:525,1721,285,173
+Cowboy_yellow/BODY UP
+bounds:1532,1879,229,161
+Cowboy_yellow/HELMET
+bounds:1046,1705,285,173
+Goku_all/BODY DOWN
+bounds:1251,113,210,210
+Ironman_all/BODY DOWN  BLUE
+bounds:424,565,210,199
+Ironman_all/BODY DOWN RED
+bounds:1270,736,210,198
+Ironman_yellow/BODY
+bounds:1753,317,208,269
+rotate:90
+Ironman_yellow/BODY DOWN
+bounds:1270,325,210,207
+Mafia_blue/BODY
+bounds:213,149,209,271
+rotate:90
+Mafia_blue/BODY DOWN
+bounds:1350,936,209,195
+Mafia_blue/BODY UP
+bounds:1289,1880,241,160
+Mafia_red/BODY
+bounds:486,127,209,271
+rotate:90
+Mafia_red/BODY DOWN
+bounds:1059,535,209,202
+Mafia_yellow/BODY
+bounds:759,125,209,271
+rotate:90
+Mafia_yellow/BODY DOWN
+bounds:214,767,209,196
+Ninja_blue/BODY
+bounds:1463,107,209,271
+rotate:90
+Ninja_blue/BODY DOWN
+bounds:1711,1321,209,189
+Ninja_blue/BODY UP
+bounds:812,1718,232,176
+Ninja_red/BODY
+bounds:1736,106,209,271
+rotate:90
+Ninja_red/BODY DOWN
+bounds:1482,731,209,198
+Ninja_red/BODY UP
+bounds:219,1541,234,178
+Ninja_yellow/BODY DOWN
+bounds:923,1331,209,187
+Ninja_yellow/BODY UPPER
+bounds:455,1539,222,180
+Pikachu_blue/BODY DOWN
+bounds:1561,931,210,195
+Pikachu_red/BODY DOWN
+bounds:1693,731,210,198
+Pikachu_yellow/BODY DOWN
+bounds:1773,931,210,195
+Police_blue/BODY DOWN
+bounds:2,575,209,198
+Police_red/BODY DOWN
+bounds:1032,117,209,217
+rotate:90
+Police_yellow/BODY DOWN
+bounds:2,157,209,211
+Robot_all/BODY DOWN
+bounds:1482,318,207,269
+rotate:90
+Robot_all/HELMET
+bounds:690,1139,226,191
+Robot_blue/R HELMET
+bounds:1365,1133,226,191
+Robot_yellow/HELMET
+bounds:1593,1128,226,191
+Samurai_blue/ACC 4
+bounds:888,1520,183,318
+rotate:90
+Samurai_blue/BODY DOWN
+bounds:712,1332,209,186
+Samurai_blue/BODY UP
+bounds:2,1731,234,163
+Samurai_red/ACC 4
+bounds:1443,1514,183,318
+rotate:90
+Samurai_red/BODY DOWN
+bounds:636,543,209,199
+Samurai_yellow/ACC 4
+bounds:197,1354,183,318
+rotate:90
+Samurai_yellow/BODY DOWN
+bounds:213,567,209,198
+Soldier_blue/BODY DOWN
+bounds:918,1138,209,191
+Soldier_blue/BODY UP
+bounds:1129,1134,234,190
+Soldier_red/BODY DOWN
+bounds:637,744,209,197
+Soldier_red/BODY UPPER
+bounds:1208,1516,233,183
+Soldier_yellow/BODY DOWN
+bounds:679,1535,207,181
+Soldier_yellow/BODY UP
+bounds:1134,1326,231,188
+Spider_all/BLU DOWN
+bounds:2,370,209,203
+Spider_all/RED DOWN
+bounds:213,362,209,203
+Spider_all/YE DOWN
+bounds:636,338,209,203
+Superman_all/BODY DOWN BL
+bounds:1058,328,210,205
+Superman_all/BODY DOWN RE
+bounds:1270,534,210,200
+Superman_all/BODY DOWN YE
+bounds:847,336,209,203
+Thor_all/BLUE DOWN
+bounds:1821,1128,219,191
+Thor_all/BLUE UP
+bounds:222,965,232,193
+Thor_all/RED DOWN
+bounds:2,973,218,191
+Thor_all/RED UP
+bounds:670,943,232,194
+Thor_all/YE DOWN
+bounds:904,942,210,194
+Thor_all/YE UP
+bounds:1116,938,232,194
+Thor_blue/HELMET
+bounds:456,965,212,193
+Warrior_all/BODY DOWN
+bounds:1059,739,209,197
+Warrior_all/BODY DOWN RE
+bounds:1482,529,210,200
+Warrior_all/BODY DOWN YE
+bounds:848,743,209,197
+Warrior_all/BODY UP YE
+bounds:1064,1882,223,158
+Weapon/Crowbar/blue_crowbar
+bounds:1763,1512,185,193
+rotate:90
+Weapon/Crowbar/red_crowbar
+bounds:2,1365,185,193
+rotate:90
+Weapon/Crowbar/yellow_crowbar
+bounds:517,1348,185,193
+rotate:90
+Weapon/Knife/blue_knife
+bounds:1520,1700,177,215
+rotate:90
+Weapon/Knife/red_knife
+bounds:1737,1699,177,215
+rotate:90
+Weapon/Knife/yellow_knife
+bounds:2,1552,177,215
+rotate:90
+Weapon/Rocket/blue_rocket
+bounds:1367,1326,342,186
+Weapon/Rocket/red_rocket
+bounds:2,1166,342,186
+Weapon/Rocket/yellow_rocket
+bounds:346,1160,342,186
+Weapon/Sword/red_sword
+bounds:2,1896,144,529
+rotate:90
+Weapon/Sword/yellow_sword
+bounds:533,1896,144,529
+rotate:90
+
+AMOGUS 6_3.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Captain_blue/BODY
+bounds:968,1001,210,271
+Captain_red/BODY RED
+bounds:516,999,234,273
+offsets:133,114,500,500
+Captain_yellow/BODY
+bounds:1180,1039,210,271
+rotate:90
+Cowboy_blue/BODY
+bounds:1180,827,210,271
+rotate:90
+Cowboy_red/BODY
+bounds:735,235,210,271
+Cowboy_yellow/BODY
+bounds:789,509,210,271
+rotate:90
+Goku_all/BODY
+bounds:947,236,210,271
+Goku_all/BODY UP BLU
+bounds:1597,1776,270,310
+rotate:90
+Goku_all/BODY UP RED
+bounds:1046,1524,270,293
+rotate:90
+Goku_all/BODY UP YE
+bounds:735,1524,270,309
+rotate:90
+Goku_all/HAIR BLU
+bounds:1590,996,270,273
+rotate:90
+Goku_all/HAIR RED
+bounds:516,721,270,273
+Goku_all/HAIR YE
+bounds:788,721,270,273
+Ironman_all/BODY BLUE
+bounds:516,508,211,271
+rotate:90
+Ironman_all/BODY RED
+bounds:1062,554,210,271
+Ironman_yellow/EMPTY
+bounds:2,23,479,481
+offsets:21,10,500,500
+Ninja_yellow/BODY
+bounds:1227,8,209,271
+Pikachu_blue/BODY UP
+bounds:735,2,244,231
+Pikachu_red/BODY UP
+bounds:981,3,244,231
+Police_blue/BODY
+bounds:1371,281,209,271
+Police_blue/BODY UP
+bounds:1486,556,223,227
+Police_red/BODY UP
+bounds:516,1822,224,215
+rotate:90
+Police_yellow/BODY UP
+bounds:1711,560,223,219
+rotate:90
+Robot_all/BODY
+bounds:1438,8,209,271
+Robot_blue/BODY
+bounds:1582,283,209,271
+Robot_blue/BODY DOWN
+bounds:1649,785,209,271
+rotate:90
+Robot_yellow/BODY
+bounds:1793,287,209,271
+Robot_yellow/BODY DOWN
+bounds:1649,10,209,271
+Samurai_blue/HELMET
+bounds:1341,1501,293,252
+offsets:0,4,293,256
+rotate:90
+Samurai_red/HELME
+bounds:1595,1522,293,252
+offsets:0,4,293,256
+Samurai_yellow/HELMET
+bounds:1595,1268,293,252
+offsets:0,4,293,256
+Superman_all/BODY BL
+bounds:1159,281,210,271
+Superman_all/BODY RE
+bounds:1274,554,210,271
+Warrior_all/HELMET RE
+bounds:735,1274,248,283
+rotate:90
+Warrior_all/HELMET YE
+bounds:1020,1274,248,283
+rotate:90
+Warrior_all/R HELMET
+bounds:1305,1251,248,283
+rotate:90
+Weapon/Axe/bluw_axe
+bounds:516,1548,214,272
+Weapon/Axe/red_axe
+bounds:516,1274,214,272
+Weapon/Axe/yellow_axe
+bounds:752,1000,214,272
+Weapon/FX/FX_BLUE
+bounds:2,1534,512,512
+Weapon/FX/FX_RED
+bounds:2,1020,512,512
+Weapon/FX/FX_YELLOW
+bounds:2,506,512,512
+Weapon/Katana/blue_katana
+bounds:483,75,429,250
+rotate:90
+Weapon/Katana/red_katana
+bounds:735,1796,429,250
+Weapon/Katana/yellow_katana
+bounds:1166,1796,429,250
+
+AMOGUS 6_4.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Pikachu_blue/BODY
+bounds:274,1276,210,270
+rotate:90
+Pikachu_red/BODY
+bounds:546,1276,210,270
+rotate:90
+Pikachu_yellow/BODY
+bounds:818,1276,210,270
+rotate:90
+Pikachu_yellow/BODY UP
+bounds:2,1041,244,234
+Police_red/BODY
+bounds:2,1699,209,270
+rotate:90
+Police_yellow/BODY
+bounds:274,1699,209,270
+rotate:90
+Samurai_blue/BODY
+bounds:546,1699,209,271
+rotate:90
+Samurai_red/BODY
+bounds:819,1699,209,271
+rotate:90
+Samurai_yellow/BODY
+bounds:1092,1699,209,271
+rotate:90
+Soldier_blue/BODY
+bounds:1365,1699,209,271
+rotate:90
+Soldier_red/BODY
+bounds:1638,1699,209,270
+rotate:90
+Soldier_yellow/BODY
+bounds:2,1488,209,270
+rotate:90
+Spider_all/BODY BLU
+bounds:274,1488,209,270
+rotate:90
+Spider_all/BODY RED
+bounds:546,1488,209,271
+rotate:90
+Spider_all/BODY YE
+bounds:819,1488,209,270
+rotate:90
+Superman_all/BODY YE
+bounds:1091,1488,209,270
+rotate:90
+Thor_all/BODY RED
+bounds:1090,1276,210,270
+rotate:90
+Thor_all/BODY YE
+bounds:1362,1276,210,270
+rotate:90
+Thor_blue/BODY
+bounds:1634,1276,210,270
+rotate:90
+Warrior_all/BODY
+bounds:2,1277,209,270
+rotate:90
+Warrior_all/BODY RE
+bounds:1363,1488,209,271
+rotate:90
+Warrior_all/BODY YE
+bounds:1636,1488,209,270
+rotate:90
