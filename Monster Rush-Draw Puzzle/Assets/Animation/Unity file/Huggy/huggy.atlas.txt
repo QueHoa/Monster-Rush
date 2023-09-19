@@ -1,0 +1,38 @@
+huggy.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Huggy_blue/body
+bounds:2,605,228,371
+Huggy_blue/l hand
+bounds:232,285,69,178
+offsets:1,0,70,179
+Huggy_blue/l leg
+bounds:333,663,70,133
+Huggy_blue/r hand
+bounds:232,807,99,169
+Huggy_blue/r leg
+bounds:374,396,70,130
+Huggy_yellow/body
+bounds:2,232,228,371
+Huggy_yellow/l hand
+bounds:303,285,69,178
+offsets:1,0,70,179
+Huggy_yellow/l leg
+bounds:404,843,70,133
+Huggy_yellow/r hand
+bounds:232,636,99,169
+Huggy_yellow/r leg
+bounds:374,264,70,130
+body
+bounds:2,2,228,371
+rotate:90
+l hand
+bounds:333,798,69,178
+offsets:1,0,70,179
+l leg
+bounds:333,528,70,133
+r hand
+bounds:232,465,99,169
+r leg
+bounds:405,711,70,130

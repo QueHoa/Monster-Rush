@@ -1,0 +1,63 @@
+ChoCho.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+TX_Fire_Sword_01
+bounds:2,491,512,512
+chocho_blue/hat
+bounds:516,520,247,182
+chocho_blue/head
+bounds:2,299,190,299
+rotate:90
+chocho_blue/l leg 1
+bounds:708,714,105,172
+rotate:90
+chocho_yellow/l leg 1
+bounds:708,714,105,172
+rotate:90
+l leg 1
+bounds:708,714,105,172
+rotate:90
+chocho_blue/l leg 2
+bounds:788,176,122,200
+chocho_yellow/l leg 2
+bounds:788,176,122,200
+l leg 2
+bounds:788,176,122,200
+chocho_blue/l leg 3
+bounds:2,176,121,166
+rotate:90
+chocho_yellow/l leg 3
+bounds:2,176,121,166
+rotate:90
+l leg 3
+bounds:2,176,121,166
+rotate:90
+chocho_blue/r leg 1
+bounds:765,561,162,151
+chocho_yellow/r leg 1
+bounds:765,561,162,151
+r leg 1
+bounds:765,561,162,151
+chocho_blue/r leg 2
+bounds:788,378,133,181
+chocho_yellow/r leg 2
+bounds:788,378,133,181
+r leg 2
+bounds:788,378,133,181
+chocho_blue/r leg 3
+bounds:912,230,91,146
+chocho_yellow/r leg 3
+bounds:912,230,91,146
+r leg 3
+bounds:912,230,91,146
+chocho_yellow/hat
+bounds:708,821,247,182
+chocho_yellow/head
+bounds:303,299,190,299
+rotate:90
+hat
+bounds:604,271,247,182
+rotate:90
+head
+bounds:516,704,190,299

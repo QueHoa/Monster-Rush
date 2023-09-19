@@ -1,0 +1,59 @@
+NabNab.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Nabnab_blue/body
+bounds:2,569,256,430
+rotate:90
+Nabnab_blue/l hand
+bounds:263,827,87,126
+rotate:90
+Nabnab_blue/l leg
+bounds:788,913,77,123
+rotate:90
+Nabnab_blue/mouth
+bounds:127,842,82,134
+rotate:90
+Nabnab_red/mouth
+bounds:127,842,82,134
+rotate:90
+mouth
+bounds:127,842,82,134
+rotate:90
+Nabnab_blue/r hand
+bounds:380,916,74,134
+rotate:90
+Nabnab_blue/r leg
+bounds:2,926,64,124
+rotate:90
+Nabnab_red/body
+bounds:434,397,256,430
+rotate:90
+Nabnab_red/l hand
+bounds:391,827,87,126
+rotate:90
+Nabnab_red/l leg
+bounds:913,867,77,123
+Nabnab_red/r hand
+bounds:516,916,74,134
+rotate:90
+Nabnab_red/r leg
+bounds:128,926,64,124
+rotate:90
+TX_Light_Explosion02
+bounds:647,655,256,256
+body
+bounds:2,311,256,430
+rotate:90
+l hand
+bounds:519,827,87,126
+rotate:90
+l leg
+bounds:2,847,77,123
+rotate:90
+r hand
+bounds:652,916,74,134
+rotate:90
+r leg
+bounds:254,926,64,124
+rotate:90

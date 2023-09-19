@@ -8,19 +8,31 @@ public class Loading : MonoBehaviour
     public AnimationCurve curve;
     public Image loadingBar;
     public Text loadingText;
+    public CanvasGroup alpha;
+    private float time;
+    private int number;
     private void OnEnable()
     {
-        
+        alpha.alpha = 1;
+        loadingBar.fillAmount = 0;
+        number = 0;
+        time = 0;
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
-        
+        time += 0.3f * Time.deltaTime;
+        float a = curve.Evaluate(time);
+        loadingBar.fillAmount = a;
+        number = Mathf.RoundToInt(a * 100);
+        loadingText.text = number.ToString() + "%";
+        if (loadingBar.fillAmount >= 0.995f)
+        {
+            alpha.alpha -= 2 * Time.deltaTime;
+            if(alpha.alpha < 0.2f)
+            {
+                gameObject.SetActive(false);
+            }
+        }
     }
 }

@@ -1,0 +1,60 @@
+Banbanleena.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Banbaleena_blue/body
+bounds:538,497,204,425
+rotate:90
+Banbaleena_blue/l hand
+bounds:358,723,158,178
+rotate:90
+Banbaleena_blue/l leg
+bounds:685,867,124,176
+rotate:90
+Banbaleena_blue/mouth
+bounds:2,919,111,72
+Banbaleena_red/mouth
+bounds:2,919,111,72
+Banbaleena_yellow/mouth
+bounds:2,919,111,72
+Banbaleena_blue/r hand
+bounds:538,707,158,176
+rotate:90
+Banbaleena_blue/r leg
+bounds:115,883,108,140
+rotate:90
+Banbaleena_red/body
+bounds:2,357,204,425
+rotate:90
+Banbaleena_red/l hand
+bounds:716,703,158,178
+rotate:90
+Banbaleena_red/l leg
+bounds:2,757,124,176
+rotate:90
+Banbaleena_red/r hand
+bounds:2,597,158,176
+rotate:90
+Banbaleena_red/r leg
+bounds:257,883,108,140
+rotate:90
+Banbaleena_yellow/FX1
+bounds:863,863,128,128
+Banbaleena_yellow/body
+bounds:429,291,204,425
+rotate:90
+Banbaleena_yellow/l hand
+bounds:358,563,158,178
+rotate:90
+Banbaleena_yellow/l leg
+bounds:180,757,124,176
+rotate:90
+Banbaleena_yellow/r hand
+bounds:180,597,158,176
+rotate:90
+Banbaleena_yellow/r leg
+bounds:399,883,108,140
+rotate:90
+Banbaleena_yellow/tongue
+bounds:541,870,121,142
+rotate:90

@@ -1,0 +1,48 @@
+orange.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Orange_blue/body
+bounds:204,563,204,248
+rotate:90
+Orange_blue/head
+bounds:581,732,200,165
+Orange_blue/l hand
+bounds:854,887,139,106
+Orange_blue/l leg
+bounds:461,899,94,129
+rotate:90
+Orange_blue/r hand
+bounds:2,912,151,81
+Orange_blue/r leg
+bounds:284,797,165,113
+Orange_red/r leg
+bounds:284,797,165,113
+r leg
+bounds:284,797,165,113
+Orange_red/body
+bounds:454,526,204,248
+rotate:90
+Orange_red/head
+bounds:783,720,200,165
+Orange_red/l hand
+bounds:2,804,139,106
+Orange_red/l leg
+bounds:592,899,94,129
+rotate:90
+Orange_red/r hand
+bounds:155,912,151,81
+TX_Spread_Circle_01
+bounds:451,769,128,128
+body
+bounds:704,514,204,248
+rotate:90
+head
+bounds:2,637,200,165
+l hand
+bounds:143,804,139,106
+l leg
+bounds:723,899,94,129
+rotate:90
+r hand
+bounds:308,912,151,81

@@ -1,0 +1,53 @@
+Blue.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Rainbow_red/body
+bounds:2,639,249,376
+Rainbow_red/head
+bounds:380,21,214,238
+Rainbow_red/l hand
+bounds:476,419,140,323
+rotate:90
+Rainbow_red/l leg
+bounds:732,70,129,205
+offsets:0,1,129,207
+Rainbow_red/r hand
+bounds:253,765,250,221
+rotate:90
+Rainbow_red/r leg
+bounds:716,809,134,206
+Rainbow_yellow/body
+bounds:2,261,249,376
+Rainbow_yellow/head
+bounds:476,801,214,238
+rotate:90
+Rainbow_yellow/l hand
+bounds:692,659,140,323
+rotate:90
+Rainbow_yellow/l leg
+bounds:801,528,129,205
+offsets:0,1,129,207
+rotate:90
+Rainbow_yellow/r hand
+bounds:253,513,250,221
+rotate:90
+Rainbow_yellow/r leg
+bounds:852,809,134,206
+body
+bounds:2,10,249,376
+rotate:90
+head
+bounds:476,561,214,238
+l hand
+bounds:476,277,140,323
+rotate:90
+l leg
+bounds:801,397,129,205
+offsets:0,1,129,207
+rotate:90
+r hand
+bounds:253,261,250,221
+rotate:90
+r leg
+bounds:596,69,134,206

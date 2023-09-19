@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7f1999c220211834f8767dad06bb28d4, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c804723192d3e0542b6b3babdce56643, type: 3}
+  - {fileID: 21300000, guid: 4600df629c817484bbe037404d1fd5be, type: 3}
+  - {fileID: 21300000, guid: cbf60072698c4b34bb1ec558de37fc34, type: 3}
+  - {fileID: 21300000, guid: 8e5174b2d3eb55e419a3e7fa80ab42c3, type: 3}
+  - {fileID: 21300000, guid: 76979f8429d05994c821070a04807b57, type: 3}
+  - {fileID: 21300000, guid: d6a9a8e5e2dce1b47b9a9427f4690f20, type: 3}
+  - {fileID: 21300000, guid: 0e6b51e67185ddb45a412d897fe620c1, type: 3}
+  - {fileID: 21300000, guid: 136488083f9d3d94a8e85d6fab1779e1, type: 3}
+  - {fileID: 21300000, guid: f2197798f9144d64685b0671b4713a13, type: 3}
+  - {fileID: 21300000, guid: 7913261b24f2ec34fb11c2ead2b92c04, type: 3}
+  - {fileID: 21300000, guid: bb1c74ab4f2cbe147b7fa05c471936bb, type: 3}
+  - {fileID: 21300000, guid: e15faaed0a0adc14e83bdb934713dd14, type: 3}
+  - {fileID: 21300000, guid: 43ec0c5e5b2b76b4fa21856ae6f083b8, type: 3}
+  - {fileID: 21300000, guid: 7311db7f547ba2346a5affa4da12f50b, type: 3}
+  - {fileID: 21300000, guid: 644e22ff68fad4e45a73eff999c200cc, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Josh
+  - Venom
+  - Huggy
+  - Mommy long leg
+  - Rainbow
+  - Orange
+  - Stinger Flynn
+  - Purple
+  - Cho cho
+  - Green
+  - Banban
+  - Nab nab
+  - Slow Sline
+  - Opila bird
+  - Babaleena
+  m_RenderDataMap: {}
+  m_Tag: Atlas
+  m_IsVariant: 0

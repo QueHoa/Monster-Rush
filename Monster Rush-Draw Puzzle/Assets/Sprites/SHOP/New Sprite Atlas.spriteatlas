@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6246b982c23d7554884ad6784e60b5ce, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: da704d50089c76345b308bd84d725485, type: 3}
+  - {fileID: 21300000, guid: aff04671b5e3e0542bc9d6f2acc3a706, type: 3}
+  - {fileID: 21300000, guid: 29ef5522f32ac3d4f850bfe0ddafceb6, type: 3}
+  - {fileID: 21300000, guid: 85124c82334d8a04a91f4da839000518, type: 3}
+  - {fileID: 21300000, guid: 087eda44061b0c64b8e5852230ff88a1, type: 3}
+  - {fileID: 21300000, guid: da904054428fa6f4cbba2178f4b6759c, type: 3}
+  - {fileID: 21300000, guid: 8d33f6a6669792d4db6fd3a01db59064, type: 3}
+  - {fileID: 21300000, guid: dcba72c69cf263843a7decc7e32e2a47, type: 3}
+  - {fileID: 21300000, guid: 962997578e652a542a5913b40520abe4, type: 3}
+  - {fileID: 21300000, guid: 81a3fe48f91e6c24ab536f0447dd9ce3, type: 3}
+  - {fileID: 21300000, guid: 125fedd85a3c2584e9bc479b7da4a8c0, type: 3}
+  - {fileID: 21300000, guid: 71e13fd8f6847614fa51e1595fe2f2cb, type: 3}
+  - {fileID: 21300000, guid: 333f1a79e0b7c67409f1fbe2c99a50ea, type: 3}
+  - {fileID: 21300000, guid: 102d5ab912c27d048be0aa3c6ccebecf, type: 3}
+  - {fileID: 1448209811945433318, guid: a05d9fe975c072944aa8d9ba66b304f1, type: 3}
+  - {fileID: 21300000, guid: f947b27ae2710de4c849c79e8300d2d1, type: 3}
+  - {fileID: 21300000, guid: 1c47cf6ddf8f5c74f9d11945b6b3c2b6, type: 3}
+  - {fileID: 21300000, guid: c9f0297d954cdd84aae51a3534984706, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - shop_btn_non-selected-big
+  - shop_gift
+  - shop_btn_return
+  - Question
+  - shop_line
+  - shop_card items
+  - shop_btn_non-selected
+  - shop_item locked ovelay
+  - shop_item selected overlay (2)
+  - shop_btn_selected_small
+  - shop_btn_morecoin
+  - shop_item selected overlay
+  - shop_glow
+  - shop_ad banner
+  - shop_btn_selected_0
+  - shop_preview
+  - shop_btn_gift
+  - shop_item selected overlay (1)
+  m_RenderDataMap: {}
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0

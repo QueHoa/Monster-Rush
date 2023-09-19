@@ -1,0 +1,56 @@
+Venom.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Venom_blue/body
+bounds:2,591,260,298
+rotate:90
+Venom_blue/l hand
+bounds:2,933,72,142
+rotate:90
+Venom_blue/l leg
+bounds:923,854,78,151
+Venom_blue/mouth
+bounds:308,816,162,110
+Venom_yellow/mouth
+bounds:308,816,162,110
+mouth
+bounds:308,816,162,110
+Venom_blue/r hand
+bounds:472,810,118,116
+Venom_blue/r leg
+bounds:434,928,77,161
+rotate:90
+Venom_blue/tongue
+bounds:592,810,173,116
+Venom_yellow/tongue
+bounds:592,810,173,116
+tongue
+bounds:592,810,173,116
+Venom_yellow/body
+bounds:302,548,260,298
+rotate:90
+Venom_yellow/l hand
+bounds:146,933,72,142
+rotate:90
+Venom_yellow/l leg
+bounds:2,853,78,151
+rotate:90
+Venom_yellow/r hand
+bounds:767,810,118,116
+Venom_yellow/r leg
+bounds:597,928,77,161
+rotate:90
+body
+bounds:602,510,260,298
+l hand
+bounds:290,933,72,142
+rotate:90
+l leg
+bounds:155,853,78,151
+rotate:90
+r hand
+bounds:887,736,118,116
+r leg
+bounds:760,928,77,161
+rotate:90

@@ -1,0 +1,49 @@
+Green.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+FX/TX_Circle_Aura01
+bounds:185,313,256,256
+Green_blue/body
+bounds:185,164,147,310
+rotate:90
+Green_blue/head
+bounds:2,2,142,216
+rotate:90
+Green_blue/l hand
+bounds:2,571,181,423
+Green_blue/l leg
+bounds:449,1175,163,179
+Green_blue/r hand
+bounds:2,1696,301,348
+Green_blue/r leg
+bounds:305,1545,187,170
+rotate:90
+Green_red/body
+bounds:220,15,147,310
+rotate:90
+Green_red/head
+bounds:305,1138,142,216
+Green_red/l hand
+bounds:2,146,181,423
+Green_red/l leg
+bounds:368,739,163,179
+Green_red/r hand
+bounds:2,1346,301,348
+Green_red/r leg
+bounds:454,1857,187,170
+rotate:90
+Green_yellow/body
+bounds:305,1734,147,310
+Green_yellow/head
+bounds:368,920,142,216
+Green_yellow/l hand
+bounds:185,571,181,423
+Green_yellow/l leg
+bounds:368,574,163,179
+rotate:90
+Green_yellow/r hand
+bounds:2,996,301,348
+Green_yellow/r leg
+bounds:305,1356,187,170
+rotate:90

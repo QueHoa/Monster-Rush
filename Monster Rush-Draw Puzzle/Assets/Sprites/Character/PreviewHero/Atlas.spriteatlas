@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b8700aca2359a88498189043943305b3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 150b32b0bc67972459c0a0245b9c0be8, type: 3}
+  - {fileID: 21300000, guid: 6fad49c6fdb74f24da6d519ab2de19d4, type: 3}
+  - {fileID: 21300000, guid: b654554791778f3478aadd6f08b729b4, type: 3}
+  - {fileID: 21300000, guid: b9d1d4191d688704a9df2d9aa3fa68ed, type: 3}
+  - {fileID: 21300000, guid: 0267b7290fd6edf4da7d6a937d39cc39, type: 3}
+  - {fileID: 21300000, guid: 5e561649d06545d438e8751273eda623, type: 3}
+  - {fileID: 21300000, guid: f58a0b1b1239e7542a2ea702ef340af4, type: 3}
+  - {fileID: 21300000, guid: 0308a98b9e1e0904e9929e84a752bccd, type: 3}
+  - {fileID: 21300000, guid: de9d219b631375a4ca6c85790dfbc67f, type: 3}
+  - {fileID: 21300000, guid: 4c98734ca741d3a4d91f11d4f82b64da, type: 3}
+  - {fileID: 21300000, guid: ccac075cee1dc9f419c533fa2c2ef71d, type: 3}
+  - {fileID: 21300000, guid: c934a4bd708e56b4486031cd27fb8c76, type: 3}
+  - {fileID: 21300000, guid: 4915260e327737443b00241e56558bfa, type: 3}
+  - {fileID: 21300000, guid: c5d0df3f978b5874fabac22008f75ce4, type: 3}
+  - {fileID: 21300000, guid: fdfae25f2cceb6846a36ec0af29f5c9a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Ironman
+  - Cowboy
+  - Robot
+  - Soldier
+  - Mafia
+  - Captain
+  - Police
+  - Thor
+  - Pikachu
+  - Ninja
+  - Spiderman
+  - Samurai
+  - Son Goku
+  - Warrior
+  - Superman
+  m_RenderDataMap: {}
+  m_Tag: Atlas
+  m_IsVariant: 0

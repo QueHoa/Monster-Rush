@@ -1,0 +1,55 @@
+Josh.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+JOSH_BLUE/body
+bounds:2,515,216,233
+JOSH_BLUE/head
+bounds:220,516,232,200
+rotate:90
+JOSH_BLUE/l hand
+bounds:220,75,114,205
+offsets:0,0,114,206
+JOSH_BLUE/l leg
+bounds:452,2,89,145
+JOSH_BLUE/mouth
+bounds:220,15,166,58
+JOSH_yellow/mouth
+bounds:220,15,166,58
+mouth
+bounds:220,15,166,58
+JOSH_BLUE/r hand
+bounds:462,799,100,207
+JOSH_BLUE/r leg
+bounds:538,675,90,122
+JOSH_yellow/body
+bounds:2,280,216,233
+JOSH_yellow/head
+bounds:260,774,232,200
+rotate:90
+JOSH_yellow/l hand
+bounds:336,75,114,205
+offsets:0,0,114,206
+JOSH_yellow/l leg
+bounds:543,2,89,145
+JOSH_yellow/r hand
+bounds:422,358,100,207
+JOSH_yellow/r leg
+bounds:538,583,90,122
+rotate:90
+TX_Shape_Ground_02
+bounds:2,750,256,256
+body
+bounds:2,45,216,233
+head
+bounds:220,282,232,200
+rotate:90
+l hand
+bounds:422,567,114,205
+offsets:0,0,114,206
+l leg
+bounds:524,420,89,145
+r hand
+bounds:452,149,100,207
+r leg
+bounds:564,884,90,122

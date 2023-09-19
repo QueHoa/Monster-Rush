@@ -1,0 +1,57 @@
+purple.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Purple_red/body
+bounds:284,912,90,238
+rotate:90
+Purple_red/head
+bounds:2,914,88,92
+rotate:90
+Purple_red/l hadn
+bounds:386,575,186,234
+rotate:90
+Purple_red/l leg
+bounds:132,763,147,213
+rotate:90
+Purple_red/r hand
+bounds:622,554,186,234
+rotate:90
+Purple_red/r leg
+bounds:777,742,190,168
+Purple_yellow/body
+bounds:524,912,90,238
+rotate:90
+Purple_yellow/head
+bounds:96,914,88,92
+rotate:90
+Purple_yellow/l hadn
+bounds:2,405,186,234
+rotate:90
+Purple_yellow/l leg
+bounds:347,763,147,213
+rotate:90
+Purple_yellow/r hand
+bounds:238,387,186,234
+rotate:90
+Purple_yellow/r leg
+bounds:2,593,190,168
+Tx_Slash_Wind_02
+bounds:2,784,128,128
+body
+bounds:764,912,90,238
+rotate:90
+head
+bounds:190,914,88,92
+rotate:90
+l hadn
+bounds:474,366,186,234
+rotate:90
+l leg
+bounds:562,763,147,213
+rotate:90
+r hand
+bounds:710,366,186,234
+rotate:90
+r leg
+bounds:194,593,190,168

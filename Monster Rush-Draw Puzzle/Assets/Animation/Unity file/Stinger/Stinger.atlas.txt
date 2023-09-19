@@ -1,0 +1,78 @@
+Stinger.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Stinger_blue/head
+bounds:852,501,136,171
+Stinger_blue/l leg 1
+bounds:102,909,87,222
+rotate:90
+Stinger_blue/l leg 2
+bounds:450,798,109,302
+rotate:90
+Stinger_blue/l leg 3
+bounds:754,785,122,240
+rotate:90
+Stinger_blue/mouth
+bounds:2,935,98,61
+offsets:0,0,99,61
+Stinger_red/mouth
+bounds:2,935,98,61
+offsets:0,0,99,61
+mouth
+bounds:2,935,98,61
+offsets:0,0,99,61
+Stinger_blue/r leg 1
+bounds:326,909,87,222
+rotate:90
+Stinger_blue/r leg 2
+bounds:2,709,109,302
+rotate:90
+Stinger_blue/r leg 3
+bounds:610,550,122,240
+rotate:90
+Stinger_red/head
+bounds:2,336,136,171
+rotate:90
+Stinger_red/l leg 1
+bounds:550,909,87,222
+rotate:90
+Stinger_red/l leg 2
+bounds:306,687,109,302
+rotate:90
+Stinger_red/l leg 3
+bounds:2,474,122,240
+rotate:90
+Stinger_red/r leg 1
+bounds:774,909,87,222
+rotate:90
+Stinger_red/r leg 2
+bounds:610,674,109,302
+rotate:90
+Stinger_red/r leg 3
+bounds:244,452,122,240
+rotate:90
+head
+bounds:175,314,136,171
+rotate:90
+l leg 1
+bounds:2,820,87,222
+rotate:90
+l leg 2
+bounds:2,598,109,302
+rotate:90
+l leg 3
+bounds:486,426,122,240
+rotate:90
+r leg 1
+bounds:226,820,87,222
+rotate:90
+r leg 2
+bounds:306,576,109,302
+rotate:90
+r leg 3
+bounds:728,377,122,240
+rotate:90
+thunder
+bounds:348,97,542,278
+offsets:88,55,640,360

@@ -1,0 +1,48 @@
+mommylongleg.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Mommy_longleg_red/body
+bounds:796,768,147,222
+Mommy_longleg_red/head
+bounds:2,662,328,240
+rotate:90
+Mommy_longleg_red/l hand
+bounds:771,398,156,224
+Mommy_longleg_red/l leg
+bounds:244,624,182,366
+Mommy_longleg_red/r hand
+bounds:612,398,157,224
+Mommy_longleg_red/r leg
+bounds:244,256,182,366
+Mommy_longleg_yello/body
+bounds:929,544,147,222
+Mommy_longleg_yello/head
+bounds:2,332,328,240
+rotate:90
+Mommy_longleg_yello/l hand
+bounds:771,172,156,224
+Mommy_longleg_yello/l leg
+bounds:244,72,182,366
+rotate:90
+Mommy_longleg_yello/r hand
+bounds:612,172,157,224
+Mommy_longleg_yello/r leg
+bounds:428,624,182,366
+TX_Circle_Line_04
+bounds:2,992,1024,1024
+body
+bounds:945,768,147,222
+head
+bounds:2,2,328,240
+rotate:90
+l hand
+bounds:838,14,156,224
+rotate:90
+l leg
+bounds:428,256,182,366
+r hand
+bounds:612,13,157,224
+rotate:90
+r leg
+bounds:612,624,182,366

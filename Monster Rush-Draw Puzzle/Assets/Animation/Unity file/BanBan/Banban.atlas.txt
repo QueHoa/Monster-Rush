@@ -1,0 +1,111 @@
+Banban.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Banbaleena_blue/body
+bounds:2,1359,204,425
+rotate:90
+Banbaleena_blue/l hand
+bounds:1550,1710,158,178
+rotate:90
+Banbaleena_blue/l leg
+bounds:1745,1867,124,176
+rotate:90
+Banbaleena_blue/mouth
+bounds:113,1919,111,72
+Banbaleena_red/mouth
+bounds:113,1919,111,72
+Banbaleena_yellow/mouth
+bounds:113,1919,111,72
+Banbaleena_blue/r hand
+bounds:1730,1707,158,176
+rotate:90
+Banbaleena_blue/r leg
+bounds:646,1883,108,140
+rotate:90
+Banbaleena_red/body
+bounds:429,1304,204,425
+rotate:90
+Banbaleena_red/l hand
+bounds:358,1565,158,178
+rotate:90
+Banbaleena_red/l leg
+bounds:2,1793,124,176
+rotate:90
+Banbaleena_red/r hand
+bounds:2,1633,158,176
+rotate:90
+Banbaleena_red/r leg
+bounds:788,1883,108,140
+rotate:90
+Banbaleena_yellow/FX1
+bounds:358,1755,128,128
+Banbaleena_yellow/body
+bounds:856,1300,204,425
+rotate:90
+Banbaleena_yellow/l hand
+bounds:538,1565,158,178
+rotate:90
+Banbaleena_yellow/l leg
+bounds:180,1759,124,176
+rotate:90
+Banbaleena_yellow/r hand
+bounds:180,1599,158,176
+rotate:90
+Banbaleena_yellow/r leg
+bounds:930,1883,108,140
+rotate:90
+Banbaleena_yellow/tongue
+bounds:1601,1870,121,142
+rotate:90
+Banban_blue/body
+bounds:718,1510,202,423
+rotate:90
+Banban_blue/l hand
+bounds:488,1725,156,176
+rotate:90
+Banban_blue/l leg
+bounds:1072,1872,119,175
+rotate:90
+Banban_blue/mouth
+bounds:2,1940,109,51
+Banban_red/mouth
+bounds:2,1940,109,51
+Banban_yellow/mouth
+bounds:2,1940,109,51
+Banban_blue/r hand
+bounds:666,1725,156,174
+rotate:90
+Banban_blue/r leg
+bounds:226,1885,106,138
+rotate:90
+Banban_red/body
+bounds:1143,1506,202,423
+rotate:90
+Banban_red/l hand
+bounds:842,1725,156,176
+rotate:90
+Banban_red/l leg
+bounds:1249,1872,119,174
+rotate:90
+Banban_red/r hand
+bounds:1020,1714,156,174
+rotate:90
+Banban_red/r leg
+bounds:366,1885,106,138
+rotate:90
+Banban_yellow/body
+bounds:1568,1503,202,423
+rotate:90
+Banban_yellow/l hand
+bounds:1196,1714,156,176
+rotate:90
+Banban_yellow/l leg
+bounds:1425,1872,119,174
+rotate:90
+Banban_yellow/r hand
+bounds:1374,1714,156,174
+rotate:90
+Banban_yellow/r leg
+bounds:506,1885,106,138
+rotate:90

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63dd488b05750e44db8fa28fe930a84e, type: 3}
+  m_Name: Magnum
+  m_EditorClassIdentifier: 
+  type: 3
+  weaponName: magnum
+  blue: {fileID: 21300000, guid: b69380265563cbe4ba3391d3ec9c82f8, type: 3}
+  red: {fileID: 21300000, guid: d5691d9da58fb3a42b06de0501cc97ed, type: 3}
+  yellow: {fileID: 21300000, guid: 31ea974fde4a1d941b31c6dc37cceff9, type: 3}

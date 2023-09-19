@@ -1,0 +1,61 @@
+oploids.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Opils_red/body
+bounds:732,340,412,180
+rotate:90
+Opils_red/head
+bounds:311,609,170,363
+offsets:64,0,234,363
+rotate:90
+Opils_red/l leg
+bounds:599,781,120,177
+rotate:90
+Opils_red/lower mouth
+bounds:425,903,132,73
+Opils_red/r leg
+bounds:827,876,100,149
+rotate:90
+Opils_yellow/r leg
+bounds:827,876,100,149
+rotate:90
+r leg
+bounds:827,876,100,149
+rotate:90
+Opils_red/upper mouth
+bounds:2,912,139,64
+Opils_red/wing
+bounds:2,797,197,113
+Opils_yellow/body
+bounds:2,255,412,180
+Opils_yellow/head
+bounds:2,437,170,363
+offsets:64,0,234,363
+rotate:90
+Opils_yellow/l leg
+bounds:778,754,120,177
+rotate:90
+Opils_yellow/lower mouth
+bounds:559,903,132,73
+Opils_yellow/upper mouth
+bounds:143,912,139,64
+Opils_yellow/wing
+bounds:201,797,197,113
+UI_TX_Broken
+bounds:181,667,128,128
+body
+bounds:416,158,412,180
+head
+bounds:367,437,170,363
+offsets:64,0,234,363
+rotate:90
+l leg
+bounds:2,675,120,177
+rotate:90
+lower mouth
+bounds:693,903,132,73
+upper mouth
+bounds:284,912,139,64
+wing
+bounds:400,788,197,113
