@@ -1,3 +1,4 @@
+using OneHit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -76,7 +77,8 @@ public class ChooseHero : MonoBehaviour
     }
     public void Choose()
     {
-        if(numberAds < card.numberAds)
+        AudioManager.Play("Click");
+        if (numberAds < card.numberAds)
         {
             if (numberAds == card.numberAds - 1)
             {

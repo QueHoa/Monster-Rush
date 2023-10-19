@@ -7,6 +7,7 @@ public class StartLoading : MonoBehaviour
 {
     public GameObject home;
     public AnimationCurve curve;
+    public GameObject logo;
     public Image loadingBar;
     public Text loadingText;
     public CanvasGroup alpha;
@@ -21,6 +22,10 @@ public class StartLoading : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(time > 1.6f)
+        {
+            logo.SetActive(true);
+        }
         time += 0.7f * Time.deltaTime;
         float a = curve.Evaluate(time);
         loadingBar.fillAmount = a;
@@ -29,8 +34,8 @@ public class StartLoading : MonoBehaviour
         if (loadingBar.fillAmount >= 0.995f)
         {
             home.SetActive(true);
-            alpha.alpha -= 0.8f * Time.deltaTime;
-            if (alpha.alpha < 0.1f)
+            alpha.alpha -= 1.2f * Time.deltaTime;
+            if (alpha.alpha <= 0f)
             {
                 gameObject.SetActive(false);
             }

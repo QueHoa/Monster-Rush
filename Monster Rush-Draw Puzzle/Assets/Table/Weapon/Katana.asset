@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Katana
   m_EditorClassIdentifier: 
   type: 2
-  weaponName: katana
+  weaponName: Katana
   blue: {fileID: 21300000, guid: bd751f5a14233da4c8441f9947d8af41, type: 3}
   red: {fileID: 21300000, guid: f6f3ece952bc4ed46ad8ed2d4672f31f, type: 3}
   yellow: {fileID: 21300000, guid: 4392e2263175ae244ac922e66bf87c09, type: 3}

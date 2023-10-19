@@ -20,6 +20,10 @@ public class Weapon : ScriptableObject
     public Sprite blue, red, yellow;
 
 
+    public string WeaponName()
+    {
+        return weaponName;
+    }
     public string GetFullSkinPath(GameColor color)
     {
         return $"Weapon/{GetStrType(type)}/{name}/{name}_{color.ToString().ToLower()}";

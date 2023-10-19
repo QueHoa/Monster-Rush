@@ -11,6 +11,7 @@ public class Card : ScriptableObject
     public int numberAds;
     public Sprite charactor;
     public SkeletonDataAsset skeletonDataAsset;
+    public float timeAttack;
     public string GetItem(ItemType ItemType)
     {
         switch (ItemType)

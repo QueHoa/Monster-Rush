@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using OneHit.Framework;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -69,11 +70,19 @@ public class DrawPath : MonoBehaviour
                 touchPos.z = 0;
                 if (isDrawing)
                 {
+                    if (touch.phase == TouchPhase.Moved)
+                    {
+                        AudioManager.SoundOnVolume("Sketch", 1, 0f);
+                    }
+                    if (touch.phase == TouchPhase.Stationary)
+                    {
+                        AudioManager.SoundOffVolume("Sketch", 0, 0.1f);
+                    }
+                    line.SetPosition(0, hero.position);
                     if (Vector3.Distance(touchPos, previousPos) > minDis)
                     {
                         if (previousPos == transform.position)
                         {
-                            line.SetPosition(0, hero.position);
                             line.positionCount++;
                             line.SetPosition(1, transform.position);
                         }
@@ -92,12 +101,20 @@ public class DrawPath : MonoBehaviour
             }
             if (touch.phase == TouchPhase.Ended && isTouch == 1)
             {
+                AudioManager.SoundOffVolume("Sketch", 0, 0.05f);
                 if (IsWithinEndCollider())
                 {
-                    pathLength = CalculatePathLength();
-                    positions = new Vector3[line.positionCount];
-                    line.GetPositions(positions);
-                    locked = true;
+                    if (IsEndPointWithinEndCollider())
+                    {
+                        pathLength = CalculatePathLength();
+                        positions = new Vector3[line.positionCount];
+                        line.GetPositions(positions);
+                        locked = true;
+                    }
+                    else
+                    {
+                        ResetLine();
+                    }
                 }
                 else if(!locked)
                 {
@@ -144,6 +161,12 @@ public class DrawPath : MonoBehaviour
         Vector3 touchPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         Vector2 touchPosition2D = new Vector2(touchPosition.x, touchPosition.y);
         return endCollider.OverlapPoint(touchPosition2D);
+    }
+    bool IsEndPointWithinEndCollider()
+    {
+        Vector3 endPoint = line.GetPosition(line.positionCount - 1);
+        Vector2 endPoint2D = new Vector2(endPoint.x, endPoint.y);
+        return endCollider.OverlapPoint(endPoint2D);
     }
     public float CalculatePathLength()
     {

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: Amogus_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 95fbcc1f29b79b34c8acbf2caeecde73, type: 3}
+  materials:
+  - {fileID: 2100000, guid: c6890560a7c8bcd4abeb6b03afb05192, type: 2}
+  - {fileID: 2100000, guid: 82d8e6d1c60099e47b34d67eff0b13f4, type: 2}
+  - {fileID: 2100000, guid: 3ccb9eb2600ceb14bb9e80f2407a2535, type: 2}
+  - {fileID: 2100000, guid: 6c0ec8589f2e9fe4a8f57796bf017212, type: 2}

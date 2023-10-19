@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Crowbar
   m_EditorClassIdentifier: 
   type: 1
-  weaponName: crowbar
+  weaponName: Crowbar
   blue: {fileID: 21300000, guid: 98d9f1f93d758b14c8b142c7cfa3c424, type: 3}
   red: {fileID: 21300000, guid: c6e562fadefaebb40a0fe54b40570396, type: 3}
   yellow: {fileID: 21300000, guid: 6f7a3fcfb91092c4da130212ca276374, type: 3}

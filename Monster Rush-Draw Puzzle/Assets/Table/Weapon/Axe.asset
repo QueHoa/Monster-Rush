@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Axe
   m_EditorClassIdentifier: 
   type: 1
-  weaponName: axe
+  weaponName: Axe
   blue: {fileID: 21300000, guid: b4f36be9dfa499a41b571221318e8632, type: 3}
   red: {fileID: 21300000, guid: eaad6262eef202146b1c0defc4ec8152, type: 3}
   yellow: {fileID: 21300000, guid: 552df6ce255315a47a9880d8a72331a9, type: 3}

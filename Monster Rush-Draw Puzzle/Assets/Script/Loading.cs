@@ -29,7 +29,7 @@ public class Loading : MonoBehaviour
         if (loadingBar.fillAmount >= 0.995f)
         {
             alpha.alpha -= 2 * Time.deltaTime;
-            if(alpha.alpha < 0.2f)
+            if(alpha.alpha <= 0f)
             {
                 gameObject.SetActive(false);
             }

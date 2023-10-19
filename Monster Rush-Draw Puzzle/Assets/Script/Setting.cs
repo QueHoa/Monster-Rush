@@ -25,14 +25,13 @@ public class Setting : MonoBehaviour
     }
     public void SetExit()
     {
+        AudioManager.Play("Click");
         StartCoroutine(Exit());
     }
     IEnumerator Exit()
     {
         anim.SetTrigger("hide");
-        yield return new WaitForSeconds(0.2f);
-        home.gold.SetActive(true);
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);
     }
 }

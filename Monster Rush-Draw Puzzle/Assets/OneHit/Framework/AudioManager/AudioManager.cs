@@ -24,7 +24,7 @@ namespace OneHit.Framework
 
         private void Start()
         {
-            PlayBGM();
+            
         }
 
         public List<Sound> sounds = new List<Sound>();
@@ -52,6 +52,28 @@ namespace OneHit.Framework
             if (PlayerPrefs.GetInt("MusicOn", 1) == 1)
             {
                 s.source.DOFade(volume, time);
+            }
+        }
+        public static void SoundOnVolume(string soundName, float volume, float time)
+        {
+            Sound s = Instance.sounds.Find(sound => sound.name == soundName);
+            if (!s.source.isPlaying)
+            {
+                s.source?.Play();
+                DOTween.To(() => s.source.volume, x => s.source.volume = x, volume, time);
+            }
+        }
+        public static void SoundOffVolume(string soundName, float volume, float time)
+        {
+            int number = 0;
+            Sound s = Instance.sounds.Find(sound => sound.name == soundName);
+            if (s.source.isPlaying && number == 0)
+            {
+                number++;
+                DOTween.To(() => s.source.volume, x => s.source.volume = x, volume, time).OnUpdate(() =>
+                {
+                    if (s.source.volume == 0) s.source?.Stop();
+                });
             }
         }
         public static void PlayOneShot(string name)

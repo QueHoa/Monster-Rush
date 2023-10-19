@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972957065922439124}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.956, y: 1.527, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: -0.905, y: 1.514, z: 0}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1972957066943066252}
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 537e495b93d703344baed4d1e8fb1577, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,9 +80,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 693351863
-  m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &1972957065922439126
 MonoBehaviour:
@@ -96,8 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 4fc605f94e0f85542b4279623eead9a4, type: 2}
-  initialSkinName: Weapon/Long gun/Cannon (Drop)/Cannon
+  skeletonDataAsset: {fileID: 11400000, guid: 98b9558e615334741bfec1efdd683190, type: 2}
+  initialSkinName: Weapon/Long gun/Awp/Awp_blue
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
   initialFlipY: 0
@@ -149,7 +149,7 @@ Transform:
   m_GameObject: {fileID: 1972957066088146659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.95, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1972957066278228598}
@@ -193,9 +193,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 693351863
-  m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -297,9 +297,9 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 693351863
-  m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -3
   m_Positions:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 1}
@@ -438,8 +438,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972957066909879915}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.956, y: 1.5270001, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: -0.905, y: 1.5140003, z: 0}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1972957066943066252}
@@ -473,13 +473,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 537e495b93d703344baed4d1e8fb1577, type: 2}
-  - {fileID: 2100000, guid: ab10744d666ca1e4fbc2a99d7a293552, type: 2}
-  - {fileID: 2100000, guid: c9f0387ac4b867e47849c2eda4ee9762, type: 2}
-  - {fileID: 2100000, guid: 537e495b93d703344baed4d1e8fb1577, type: 2}
-  - {fileID: 2100000, guid: 56250fa2bae89c346ace3a3aea2fa802, type: 2}
-  - {fileID: 2100000, guid: ab10744d666ca1e4fbc2a99d7a293552, type: 2}
-  - {fileID: 2100000, guid: 537e495b93d703344baed4d1e8fb1577, type: 2}
+  - {fileID: 2100000, guid: c6890560a7c8bcd4abeb6b03afb05192, type: 2}
+  - {fileID: 2100000, guid: 3ccb9eb2600ceb14bb9e80f2407a2535, type: 2}
+  - {fileID: 2100000, guid: c6890560a7c8bcd4abeb6b03afb05192, type: 2}
+  - {fileID: 2100000, guid: 82d8e6d1c60099e47b34d67eff0b13f4, type: 2}
+  - {fileID: 2100000, guid: c6890560a7c8bcd4abeb6b03afb05192, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -497,9 +495,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 693351863
-  m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -2
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &1972957066909879917
 MonoBehaviour:
@@ -513,8 +511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 4fc605f94e0f85542b4279623eead9a4, type: 2}
-  initialSkinName: Skin/Pikachu_yellow
+  skeletonDataAsset: {fileID: 11400000, guid: 98b9558e615334741bfec1efdd683190, type: 2}
+  initialSkinName: Skin/Captain_red
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
   initialFlipY: 0
@@ -566,8 +564,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972957066943066251}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.526, y: -0.063, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.47200006, y: -0.063, z: 0}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1972957066909879916}
@@ -588,7 +586,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.66}
+  m_Offset: {x: 0.03, y: 0.62}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -599,7 +597,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.66, y: 1.29}
+  m_Size: {x: 0.5, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &6786050909982757580
 Rigidbody2D:
@@ -636,21 +634,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gamePlay: {fileID: 0}
   boxWeapon:
+  - {fileID: 11400000, guid: 7f51dfad7ef05f542a83db151ddf5dab, type: 2}
   - {fileID: 11400000, guid: 6b70313107ab1fb4ba350b79ae8bc929, type: 2}
   - {fileID: 11400000, guid: 9cbe3ec7c62418b41a7d7d55eeb9d156, type: 2}
   - {fileID: 11400000, guid: 22cb8b310682b124a9460f83e5d52ead, type: 2}
   - {fileID: 11400000, guid: 982d084d950f1e8489edbef65d8bb769, type: 2}
   - {fileID: 11400000, guid: fbc51ec176f9aab48a35c8e7831511b0, type: 2}
+  - {fileID: 11400000, guid: c80e443a6e1a38f42a300feb9d8ad97b, type: 2}
   - {fileID: 11400000, guid: 798aeee2bd76ad6449e8bc4a5fe97deb, type: 2}
   - {fileID: 11400000, guid: 954df70d44d19dd40886dd43b5199890, type: 2}
+  - {fileID: 11400000, guid: 8c063cd2bc00b704491c3daa0372d37d, type: 2}
   - {fileID: 11400000, guid: ef3bebb57fde6794b9a46ba973d02a0a, type: 2}
   - {fileID: 11400000, guid: fd036b209abfcfd49a61046428e99f99, type: 2}
-  hero: {fileID: 1972957066943066252}
+  - {fileID: 11400000, guid: af3d4352e1b43ee4bb794c9773a61209, type: 2}
   player: {fileID: 1972957066909879917}
   weapon: {fileID: 1972957065922439126}
   monster: {fileID: 8235013803167605616}
   path: {fileID: 1972957066278228599}
   endWeapon: {fileID: 9058555334723648533}
+  effectFigtht: {fileID: 6062031848859140514, guid: f9b62c7413323564791d42f10370562f, type: 3}
   color: 0
   startPlace: {fileID: 1972957066088146661}
   place: {fileID: 8862035868888750150}
@@ -719,7 +721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5236755093709485182}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.748, y: -0.15, z: 0}
+  m_LocalPosition: {x: -0.775, y: -0.15, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -754,7 +756,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5c5526c537db2df4c9aa93044bce9fc2, type: 2}
+  - {fileID: 2100000, guid: c3580176bbbda8b45a6a7bbd44bd8988, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -772,9 +774,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 693351863
-  m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -2
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &8235013803167605616
 MonoBehaviour:
@@ -788,8 +790,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: aacf00d8d0b11c640a9fd7d62d3e1f52, type: 2}
-  initialSkinName: Green_red
+  skeletonDataAsset: {fileID: 11400000, guid: 28a72ccdb3310f547b90f730a73aff72, type: 2}
+  initialSkinName: Blue_red
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
   initialFlipY: 0
@@ -839,8 +841,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7756308850975586686}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.091, y: 0.288, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 0, y: 0.188, z: 0}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1972957067778607679}
@@ -884,10 +886,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 693351863
-  m_SortingLayer: 1
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: c2be367986e501f41a8a6128b884d15a, type: 3}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: 1c9d53e8d49e09c4da05c37461c8879a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -969,9 +971,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 693351863
-  m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 5131192ee2b942e4a8e36b83fbbe4d73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

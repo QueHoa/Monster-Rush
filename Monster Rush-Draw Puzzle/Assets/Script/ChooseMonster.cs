@@ -1,3 +1,4 @@
+using OneHit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -26,6 +27,7 @@ public class ChooseMonster : MonoBehaviour
         {
             PlayerPrefs.SetInt(card.name, 0);
         }
+        skinMonster = PlayerPrefs.GetString("skinMonster");
         numberAds = PlayerPrefs.GetInt(card.name);
         charactor.sprite = card.charactor;
         if (numberAds < card.numberAds)
@@ -38,6 +40,14 @@ public class ChooseMonster : MonoBehaviour
         {
             locked.SetActive(false);
             charactor.color = new Color(1, 1, 1, 1);
+            if (card.name == skinMonster)
+            {
+                selecting.SetActive(true);
+            }
+            else
+            {
+                selecting.SetActive(false);
+            }
         }
     }
     // Update is called once per frame
@@ -59,6 +69,7 @@ public class ChooseMonster : MonoBehaviour
             {
                 selecting.SetActive(true);
                 GameManager.Instance.skeletonMonster = card.skeletonDataAsset;
+                GameManager.Instance.timeAttack = card.timeAttack;
             }
             else
             {
@@ -68,7 +79,8 @@ public class ChooseMonster : MonoBehaviour
     }
     public void Choose()
     {
-        if(numberAds < card.numberAds)
+        AudioManager.Play("Click");
+        if (numberAds < card.numberAds)
         {
             if (numberAds == card.numberAds - 1)
             {

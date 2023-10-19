@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class GamePlay : MonoBehaviour
 {
-    [HideInInspector]
+    //[HideInInspector]
     public bool isMove;
     [HideInInspector]
     public int numberWin;
     [HideInInspector]
     public bool isLose;
+    [HideInInspector]
+    public bool isStop;
 
     public int rank;
 
@@ -36,6 +38,7 @@ public class GamePlay : MonoBehaviour
         isMove = false;
         numberWin = 0;
         isLose = false;
+        isStop = false;
     }
 
     // Update is called once per frame
@@ -92,7 +95,7 @@ public class GamePlay : MonoBehaviour
     }
     IEnumerator LoseGame()
     {
-        yield return new WaitForSeconds(1.9f);
+        yield return new WaitForSeconds(1.6f);
         loseGame.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         mainController.gameObject.SetActive(false);

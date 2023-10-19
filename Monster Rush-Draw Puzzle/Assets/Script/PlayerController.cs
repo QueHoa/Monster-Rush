@@ -6,17 +6,18 @@ using UnityEngine.UI;
 using DG.Tweening;
 using Spine.Unity;
 using System.Threading.Tasks;
+using OneHit.Framework;
 
 public class PlayerController : MonoBehaviour
 {
     public GamePlay gamePlay;
     public Weapon[] boxWeapon;
-    public Transform hero;
     public SkeletonAnimation player;
     public SkeletonAnimation weapon;
     public SkeletonAnimation monster;
     public DrawPath path;
     public SpriteRenderer endWeapon;
+    public GameObject effectFigtht;
     public const float time = 2f;
     public GameColor color;
     public SpriteRenderer startPlace;
@@ -28,13 +29,17 @@ public class PlayerController : MonoBehaviour
 
     private MainController mainController;
     private int numberWeapon;
+    private int stop;
+    private int lose;
     private Tween moveTween;
     private Color blue = new Color(0, 0.8f, 1);
     private Color red = new Color(1, 0, 0);
-    private Color yellow = new Color(1, 1, 0);
+    private Color yellow = new Color(1, 0.9f, 0);
     private float oldPos;
     private float timeAttack;
+    private float monsterAttack;
     private string attack;
+    private string weaponName;
     private string skinHero;
     private string skinMonster;
     // Start is called before the first frame update
@@ -47,6 +52,7 @@ public class PlayerController : MonoBehaviour
         skinHero = PlayerPrefs.GetString("skinHero");
         skinMonster = PlayerPrefs.GetString("skinMonster");
         monster.skeletonDataAsset = GameManager.Instance.skeletonMonster;
+        monsterAttack = GameManager.Instance.timeAttack;
         if (color == GameColor.Blue)
         {
             place.sprite = colorPlace[0];
@@ -81,28 +87,65 @@ public class PlayerController : MonoBehaviour
         RandomWeapon(color);
 
         mainController = GameManager.Instance.mainController;
+        stop = 0;
+        lose = 0;
         swap = false;
         weapon.gameObject.SetActive(false);
         endWeapon.gameObject.SetActive(true);
         endWeapon.transform.DOMoveY(endWeapon.transform.position.y - 0.25f, 1.2f).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
-        oldPos = hero.position.x;
+        transform.localScale = Vector3.one * 0.9f;
+        oldPos = transform.position.x;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (hero.position.x <= oldPos)
+        if (transform.position.x <= oldPos)
         {
-            hero.localScale = Vector3.one;
+            transform.localScale = Vector3.one * 0.9f;
         }
         else
         {
-            hero.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-0.9f, 0.9f, 1);
         }
-        oldPos = hero.position.x;
+        if (gamePlay.isStop && stop == 0)
+        {
+            moveTween.Kill();
+            AudioManager.Stop("Walk");
+            player.AnimationName = "idle_1";
+            player.timeScale = 1;
+            player.loop = true;
+            weapon.AnimationName = "idle_1";
+            weapon.timeScale = 1;
+            weapon.loop = true;
+            stop++;
+        }  
         if (gamePlay.isLose)
         {
             moveTween.Kill();
+            AudioManager.Stop("Walk");
+            if(lose == 0)
+            {
+                player.AnimationName = "idle_1";
+                player.timeScale = 1;
+                player.loop = true;
+                weapon.AnimationName = "idle_1";
+                weapon.timeScale = 1;
+                weapon.loop = true;
+            }
+            else
+            {
+                player.AnimationName = "dead_1";
+                player.timeScale = 1;
+                player.loop = false;
+                weapon.AnimationName = "dead_1";
+                weapon.timeScale = 1;
+                weapon.loop = false;
+            }
+        }
+        else
+        {
+            oldPos = transform.position.x;
         }
         if (swap)
         {
@@ -118,24 +161,27 @@ public class PlayerController : MonoBehaviour
         mainController.reload.interactable = false;
         player.AnimationName = "run";
         weapon.AnimationName = "run";
-        player.timeScale = 5;
-        weapon.timeScale = 5;
+        player.timeScale = path.pathLength * 1.2f;
+        weapon.timeScale = path.pathLength * 1.2f;
+        Debug.Log(path.pathLength);
+        AudioManager.Play("Walk");
         player.Initialize(true);
-        moveTween = hero.DOPath(path.positions, time, PathType.Linear).SetEase(Ease.Linear)
+        moveTween = transform.DOPath(path.positions, time, PathType.Linear).SetEase(Ease.Linear)
             .OnComplete(() =>
             {
                 weapon.gameObject.SetActive(true);
                 endWeapon.gameObject.SetActive(false);
                 Vector3[] reversePathPositions = new Vector3[path.positions.Length];
-                for (int i = path.positions.Length - 1; i >= 0; i--)
+                for (int i = 0; i < path.positions.Length; i++)
                 {
-                    reversePathPositions[path.positions.Length - 1 - i] = path.positions[i];
+                    reversePathPositions[i] = path.positions[path.positions.Length - 1 - i];
                 }
 
-                hero.DOPath(reversePathPositions, time, PathType.Linear)
+                moveTween = transform.DOPath(reversePathPositions, time, PathType.Linear)
                     .SetEase(Ease.Linear)
                     .OnComplete(() =>
                     {
+                        AudioManager.Stop("Walk");
                         StartCoroutine(effectWin());
                     });
             });
@@ -149,17 +195,20 @@ public class PlayerController : MonoBehaviour
         weapon.AnimationName = attack;
         weapon.timeScale = 1;
         weapon.loop = false;
-        yield return new WaitForSeconds(timeAttack);
+        AudioManager.Play(weaponName);
+        yield return new WaitForSeconds(timeAttack - 0.5f);
         monster.AnimationName = "dead";
         monster.timeScale = 1;
         monster.loop = false;
+        AudioManager.Play("MonsterDie");
+        yield return new WaitForSeconds(0.5f);
         player.AnimationName = "idle_1";
         player.timeScale = 1;
         player.loop = true;
         weapon.AnimationName = "idle_1";
         weapon.timeScale = 1;
         weapon.loop = true;
-        yield return new WaitForSeconds(1.1f);
+        yield return new WaitForSeconds(0.5f);
         monster.AnimationName = null;
         monster.timeScale = 1;
         monster.loop = false;
@@ -169,14 +218,67 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            player.AnimationName = "dead_1";
-            player.timeScale = 1;
-            player.loop = false;
-            weapon.AnimationName = "dead_1";
-            weapon.timeScale = 1;
-            weapon.loop = false;
+            lose++;
+            AudioManager.Play("Dead");
             gamePlay.isLose = true;
         }
+        if (collision.CompareTag("Obstacle"))
+        {
+            lose++;
+            Vector3 spawnPosition = (transform.position + collision.transform.position) / 2.0f;
+            spawnPosition.y += 0.4f;
+            gamePlay.isStop = true;
+            StartCoroutine(EffectObstacle(spawnPosition));
+        }
+        if (collision.CompareTag("Monster"))
+        {
+            lose++;
+            gamePlay.isStop = true;
+            if(collision.transform.position.x > transform.position.x)
+            {
+                transform.localScale = new Vector3(-0.9f, 0.9f, 1);
+            }
+            StartCoroutine(MonsterAttack());
+        }
+    }
+    IEnumerator EffectObstacle(Vector3 effectPosition)
+    {
+        yield return new WaitForSeconds(0.05f);
+        GameObject effect = (GameObject)Instantiate(effectFigtht, effectPosition, Quaternion.identity);
+        Destroy(effect, 2f);
+        player.AnimationName = "dead_2";
+        player.timeScale = 1;
+        weapon.AnimationName = "dead_2";
+        weapon.timeScale = 1;
+        yield return new WaitForSeconds(1.5f);
+        player.AnimationName = "dead_1";
+        player.timeScale = 1;
+        player.loop = false;
+        weapon.AnimationName = "dead_1";
+        weapon.timeScale = 1;
+        weapon.loop = false;
+        AudioManager.Play("Dead");
+        gamePlay.isLose = true;
+    }
+    IEnumerator MonsterAttack()
+    {
+        player.AnimationName = "idle_1";
+        player.timeScale = 1;
+        player.loop = false;
+        weapon.AnimationName = "idle_1";
+        weapon.timeScale = 1;
+        weapon.loop = false;
+        yield return new WaitForSeconds(monsterAttack - 1.8f);
+        AudioManager.Play("MonsterAttack");
+        yield return new WaitForSeconds(1.2f);
+        player.AnimationName = "dead_1";
+        player.timeScale = 1;
+        player.loop = false;
+        weapon.AnimationName = "dead_1";
+        weapon.timeScale = 1;
+        weapon.loop = false;
+        AudioManager.Play("Dead");
+        gamePlay.isLose = true;
     }
     public void RandomWeapon(GameColor color)
     {
@@ -188,5 +290,6 @@ public class PlayerController : MonoBehaviour
         endWeapon.sprite = boxWeapon[numberWeapon].GetSprite(color);
         attack = boxWeapon[numberWeapon].GetAttackAnimationName();
         timeAttack = boxWeapon[numberWeapon].TimeAttack();
+        weaponName = boxWeapon[numberWeapon].WeaponName();
     }
 }

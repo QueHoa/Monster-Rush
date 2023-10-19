@@ -52,8 +52,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMove: 0
-  isWin: 0
+  numberWin: 0
   isLose: 0
+  isStop: 0
   rank: 2
   path:
   - {fileID: 8788492681881799268}
@@ -74,7 +75,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972957066278228598, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.34
+      value: -1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972957066278228598, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.2
       objectReference: {fileID: 0}
     - target: {fileID: 1972957066653359833, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_Name
@@ -130,7 +135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972957067778607679, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.84
+      value: 2.51
       objectReference: {fileID: 0}
     - target: {fileID: 3628278845861551856, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: gamePlay
@@ -183,6 +188,14 @@ PrefabInstance:
     - target: {fileID: 1972957065922439112, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972957066278228598, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972957066278228598, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.2
       objectReference: {fileID: 0}
     - target: {fileID: 1972957066653359833, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_Name
@@ -242,7 +255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972957067778607679, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.04
+      value: 2.55
       objectReference: {fileID: 0}
     - target: {fileID: 3628278845861551856, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: color

@@ -10,12 +10,15 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public MainController mainController;
     public HomeController homeController;
+    public GameObject loading;
     public GameObject winGame;
     public GameObject loseGame;
     public List<Card> card = new List<Card>();
     public Transform boxMonster;
     [HideInInspector]
     public SkeletonDataAsset skeletonMonster;
+    [HideInInspector]
+    public float timeAttack;
 
     public GameObject onVibrate;
     public GameObject offVibrate;
@@ -30,6 +33,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public int isSound;
 
+    private int noLoading;
     private int unlockedLevelsNumber;
     private string skinMonster;
     // Start is called before the first frame update
@@ -74,7 +78,8 @@ public class GameManager : MonoBehaviour
     {
         Input.multiTouchEnabled = false;
         Instance = this;
-        //PlayerPrefs.SetInt("levelsUnlocked", 1);
+        noLoading = 0;
+        //PlayerPrefs.SetInt("levelsUnlocked", 5);
         if (!PlayerPrefs.HasKey("levelsUnlocked"))
         {
             PlayerPrefs.SetInt("levelsUnlocked", 1);
@@ -94,7 +99,7 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("giftWin", 0);
         }
-        PlayerPrefs.SetInt("gold", 0);
+        //PlayerPrefs.SetInt("gold", 0);
         if (!PlayerPrefs.HasKey("gold"))
         {
             PlayerPrefs.SetInt("gold", 0);
@@ -120,12 +125,18 @@ public class GameManager : MonoBehaviour
         isMusic = PlayerPrefs.GetInt("MusicOn");
         isSound = PlayerPrefs.GetInt("SoundOn");
         isVibrate = PlayerPrefs.GetInt("VibrateOn");
+        if (!loading.activeInHierarchy && noLoading == 0 && isMusic == 1)
+        {
+            AudioManager.PlayBGM();
+            noLoading++;
+        }
         skinMonster = PlayerPrefs.GetString("skinMonster");
         for (int i = 0; i < boxMonster.childCount; i++)
         {
             if (boxMonster.GetChild(i).GetComponent<ChooseMonster>().card.name == skinMonster)
             {
                 skeletonMonster = boxMonster.GetChild(i).GetComponent<ChooseMonster>().card.skeletonDataAsset;
+                timeAttack = boxMonster.GetChild(i).GetComponent<ChooseMonster>().card.timeAttack;
             }
         }
         for (int i = 0; i < card.Count; i++)
@@ -138,7 +149,8 @@ public class GameManager : MonoBehaviour
     }
     public void SetMusic()
     {
-        //AudioManager.UpdateMusic();
+        AudioManager.UpdateMusic();
+        AudioManager.Play("Click");
         if (isMusic == 1)
         {
             onMusic.SetActive(false);
@@ -154,6 +166,7 @@ public class GameManager : MonoBehaviour
     }
     public void SetVibrate()
     {
+        AudioManager.Play("Click");
         if (isVibrate == 1)
         {
             onVibrate.SetActive(false);
@@ -181,5 +194,6 @@ public class GameManager : MonoBehaviour
             offSound.SetActive(false);
             PlayerPrefs.SetInt("SoundOn", 1);
         }
+        AudioManager.Play("Click");
     }
 }

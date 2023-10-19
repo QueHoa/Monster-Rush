@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 4555008022864366165}
   - component: {fileID: 4555008022864366164}
   - component: {fileID: 4555008022864366167}
+  - component: {fileID: 7263302949231051015}
   m_Layer: 5
   m_Name: ItemMonster
   m_TagString: Untagged
@@ -441,6 +442,19 @@ MonoBehaviour:
   selecting: {fileID: 4555008023570305920}
   locked: {fileID: 4555008021810040087}
   textAds: {fileID: 4555008022317516284}
+--- !u!114 &7263302949231051015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4555008022864366162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2a774db0b45ec41a1502a0777ac9a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scale: 0.95
 --- !u!1 &4555008023431219506
 GameObject:
   m_ObjectHideFlags: 0

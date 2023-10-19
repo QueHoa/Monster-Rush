@@ -17,3 +17,4 @@ MonoBehaviour:
   numberAds: 2
   charactor: {fileID: 21300000, guid: 0e6b51e67185ddb45a412d897fe620c1, type: 3}
   skeletonDataAsset: {fileID: 11400000, guid: cb13fd3149103f6498775fb1ba148a70, type: 2}
+  timeAttack: 2.5

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Knife
   m_EditorClassIdentifier: 
   type: 1
-  weaponName: knife
+  weaponName: Knife
   blue: {fileID: 21300000, guid: cacc60591cdd6694895998c0492dde1c, type: 3}
   red: {fileID: 21300000, guid: 37f20ce7376718245bb798a3b65e9280, type: 3}
   yellow: {fileID: 21300000, guid: f5e1e72361344ee46b431b4794776300, type: 3}

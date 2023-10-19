@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63dd488b05750e44db8fa28fe930a84e, type: 3}
-  m_Name: USP
+  m_Name: Usp
   m_EditorClassIdentifier: 
   type: 3
-  weaponName: usp
+  weaponName: Usp
   blue: {fileID: 21300000, guid: ffd56f0651ef8c8448e44e99374cc92c, type: 3}
   red: {fileID: 21300000, guid: 75034ca70fe1a394c9c3aeef42134a02, type: 3}
   yellow: {fileID: 21300000, guid: 02ede3e11620d884bbf9433b31f6e23f, type: 3}

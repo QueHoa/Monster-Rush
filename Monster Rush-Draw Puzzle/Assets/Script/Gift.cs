@@ -1,3 +1,4 @@
+using OneHit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class Gift : MonoBehaviour
     public Card card;
     public ShopController shop;
     public SpriteRenderer charactor;
+    public GameObject fireWork;
 
     private Animator anim;
     // Start is called before the first frame update
@@ -18,9 +20,16 @@ public class Gift : MonoBehaviour
     }
     private void OnEnable()
     {
+        AudioManager.Play("Congratulation");
         anim = GetComponent<Animator>();
         anim.SetTrigger("show");
         charactor.sprite = card.charactor;
+        StartCoroutine(StartEffect());
+    }
+    IEnumerator StartEffect()
+    {
+        yield return new WaitForSeconds(0.9f);
+        fireWork.SetActive(true);
     }
 
     // Update is called once per frame
@@ -30,10 +39,12 @@ public class Gift : MonoBehaviour
     }
     public void Exit()
     {
+        AudioManager.Play("Click");
         StartCoroutine(EffectExit());
     }
     IEnumerator EffectExit()
     {
+        fireWork.SetActive(false);
         if (shop.heroBox.activeInHierarchy)
         {
             PlayerPrefs.SetInt(card.name, card.numberAds);
@@ -46,6 +57,7 @@ public class Gift : MonoBehaviour
         }
         anim.SetTrigger("hide");
         yield return new WaitForSeconds(0.5f);
+        shop.ChangeGold(-300);
         gameObject.SetActive(false);
     }
 }

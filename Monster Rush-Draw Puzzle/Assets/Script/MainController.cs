@@ -1,3 +1,4 @@
+using OneHit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,6 +21,8 @@ public class MainController : MonoBehaviour
     public Button iconAds;
     public Button reload;
     public Text textLevel;
+    public int numerLevel;
+    public InputField inputField;
 
     private int unlockedLevelsNumber;
 
@@ -63,6 +66,7 @@ public class MainController : MonoBehaviour
     }
     public void BackHome()
     {
+        AudioManager.Play("Click");
         StartCoroutine(loadingBackHome());
     }
     IEnumerator loadingBackHome()
@@ -79,20 +83,71 @@ public class MainController : MonoBehaviour
     }
     public void SwapWeapon()
     {
+        AudioManager.Play("Click");
         swap = true;
     }
     public void Skip()
     {
-        if (numberPlaying == unlockedLevelsNumber)
-        {
-            PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
-        }
+        AudioManager.Play("Click");
         Transform Level = transform.Find(numberPlaying.ToString() + "(Clone)");
         if (Level != null)
         {
             Destroy(Level.gameObject);
         }
+        if (numberPlaying == unlockedLevelsNumber)
+        {
+            PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
+            unlockedLevelsNumber = PlayerPrefs.GetInt("levelsUnlocked");
+        }
         numberPlaying++;
+        GameObject loadedPrefab = Resources.Load<GameObject>(numberPlaying.ToString());
+        GameObject level = Instantiate(loadedPrefab, gameObject.transform);
+        level.transform.SetParent(gameObject.transform, false);
+    }
+    public void Go()
+    {
+        Transform Level = transform.Find(numberPlaying.ToString() + "(Clone)");
+        if (Level != null)
+        {
+            Destroy(Level.gameObject);
+        }
+        if (int.Parse(inputField.text) <= numerLevel && int.Parse(inputField.text) >= 0)
+        {
+            numberPlaying = int.Parse(inputField.text);
+        }
+        GameObject loadedPrefab = Resources.Load<GameObject>(numberPlaying.ToString());
+        GameObject level = Instantiate(loadedPrefab, gameObject.transform);
+        level.transform.SetParent(gameObject.transform, false);
+    }
+    public void increase()
+    {
+        Transform Level = transform.Find(numberPlaying.ToString() + "(Clone)");
+        if (Level != null)
+        {
+            Destroy(Level.gameObject);
+        }
+        if (numberPlaying == unlockedLevelsNumber)
+        {
+            PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
+            unlockedLevelsNumber = PlayerPrefs.GetInt("levelsUnlocked");
+        }
+        if(numberPlaying < numerLevel)
+        {
+            numberPlaying++;
+        }
+        GameObject loadedPrefab = Resources.Load<GameObject>(numberPlaying.ToString());
+        GameObject level = Instantiate(loadedPrefab, gameObject.transform);
+        level.transform.SetParent(gameObject.transform, false);
+    }
+    public void reduce()
+    {
+        Transform Level = transform.Find(numberPlaying.ToString() + "(Clone)");
+        if (Level != null)
+        {
+            Destroy(Level.gameObject);
+        }
+        if(numberPlaying > 0) numberPlaying--;
+
         GameObject loadedPrefab = Resources.Load<GameObject>(numberPlaying.ToString());
         GameObject level = Instantiate(loadedPrefab, gameObject.transform);
         level.transform.SetParent(gameObject.transform, false);
