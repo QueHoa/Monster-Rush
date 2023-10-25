@@ -11,6 +11,7 @@ public class HomeController : MonoBehaviour
     public Transform butPlay;
     public Transform butShop;
     public GameObject panelSetting;
+    public GameObject heroPaticle;
     public GameObject loading;
     public GameObject shop;
     public Text textGold;
@@ -25,11 +26,11 @@ public class HomeController : MonoBehaviour
     }
     private void OnEnable()
     {
+        heroPaticle.SetActive(true);
         butPlay.localScale = Vector3.one;
         butShop.rotation = Quaternion.Euler(0, 0, -4);
         unlockedLevelsNumber = PlayerPrefs.GetInt("levelsUnlocked");
         numberGold = PlayerPrefs.GetInt("gold");
-        
     }
 
     // Update is called once per frame
@@ -45,6 +46,7 @@ public class HomeController : MonoBehaviour
     }
     IEnumerator EffectPlay()
     {
+        heroPaticle.SetActive(false);
         loading.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         GameObject loadedPrefab = Resources.Load<GameObject>(unlockedLevelsNumber.ToString());
@@ -57,6 +59,7 @@ public class HomeController : MonoBehaviour
     public void Shop()
     {
         AudioManager.Play("Click");
+        heroPaticle.SetActive(false);
         shop.SetActive(true);
     }
     public void Setting()

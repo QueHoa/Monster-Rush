@@ -8,6 +8,7 @@ using OneHit.Framework;
 public class ShopController : MonoBehaviour
 {
     public Animator notice;
+    public GameObject heroPaticle;
     public GameObject heroOn;
     public GameObject heroOff;
     public GameObject monsterOn;
@@ -89,6 +90,7 @@ public class ShopController : MonoBehaviour
     }
     IEnumerator EffectBack()
     {
+        heroPaticle.SetActive(true);
         DOTween.To(() => alpha.alpha, x => alpha.alpha = x, 0, 0.5f);
         yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);

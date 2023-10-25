@@ -73,7 +73,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3275345267240321478}
   - component: {fileID: 3275345267240321481}
-  - component: {fileID: 5820853807588961602}
+  - component: {fileID: 4915748598766706946}
   m_Layer: 6
   m_Name: BlockObstacle
   m_TagString: Untagged
@@ -89,8 +89,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3275345267240321479}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3, y: -21, z: 0}
-  m_LocalScale: {x: 200, y: 200, z: 1}
+  m_LocalPosition: {x: 2, y: 29, z: 0}
+  m_LocalScale: {x: 220, y: 230, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 232973363585880472}
@@ -137,7 +137,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -4
-  m_Sprite: {fileID: 21300000, guid: b99b61b11daafbf49a4fd7e2487852bd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d5241ad31c4ccb4a9bbda412aa246c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -148,7 +148,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5820853807588961602
+--- !u!61 &4915748598766706946
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,14 +165,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.58, y: 1.968}
+    oldSize: {x: 3.6633334, y: 0.7}
     newSize: {x: 3.58, y: 1.968}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.58, y: 1.968}
+  m_Size: {x: 3.6633334, y: 0.7}
   m_EdgeRadius: 0
 --- !u!1001 &1402423587649695381
 PrefabInstance:
