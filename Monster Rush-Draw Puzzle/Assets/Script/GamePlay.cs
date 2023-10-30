@@ -12,6 +12,8 @@ public class GamePlay : MonoBehaviour
     public bool isLose;
     [HideInInspector]
     public bool isStop;
+    [HideInInspector]
+    public bool isEnd;
 
     public int rank;
 
@@ -39,6 +41,7 @@ public class GamePlay : MonoBehaviour
         numberWin = 0;
         isLose = false;
         isStop = false;
+        isEnd = false;
     }
 
     // Update is called once per frame

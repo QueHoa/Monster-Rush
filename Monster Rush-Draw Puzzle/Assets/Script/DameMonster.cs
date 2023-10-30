@@ -23,7 +23,7 @@ public class DameMonster : MonoBehaviour
         monster.ClearState();
         monster.initialSkinName = skinMonster + "_blue";
         monster.AnimationName = "run";
-        monster.timeScale = time;
+        monster.timeScale = 1;
         monster.Initialize(true);
         transform.position = start.position;
         move = 0;
@@ -38,6 +38,14 @@ public class DameMonster : MonoBehaviour
             move++;
         }
         if(gamePlay.isStop)
+        {
+            moveTween.Kill();
+            monster.AnimationName = "idle";
+            monster.timeScale = 1;
+            monster.loop = true;
+            monster.Initialize(true);
+        }
+        if(gamePlay.isEnd)
         {
             moveTween.Kill();
             monster.AnimationName = "idle";

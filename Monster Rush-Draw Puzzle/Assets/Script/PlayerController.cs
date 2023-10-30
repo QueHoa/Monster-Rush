@@ -189,6 +189,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator effectWin()
     {
         path.ResetLine();
+        gamePlay.isEnd = true;
         player.AnimationName = attack;
         player.timeScale = 1;
         player.loop = false;
