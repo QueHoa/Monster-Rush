@@ -198,4 +198,4 @@ MonoBehaviour:
   monster: {fileID: 8076106853880353223}
   start: {fileID: 0}
   end: {fileID: 0}
-  time: 4.5
+  time: 5.5
