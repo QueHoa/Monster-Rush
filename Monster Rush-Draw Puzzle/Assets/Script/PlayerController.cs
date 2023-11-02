@@ -196,12 +196,12 @@ public class PlayerController : MonoBehaviour
         weapon.AnimationName = attack;
         weapon.timeScale = 1;
         weapon.loop = false;
-        AudioManager.Play(weaponName);
+        AudioManager.PlayOneShot(weaponName);
         yield return new WaitForSeconds(timeAttack - 0.5f);
         monster.AnimationName = "dead";
         monster.timeScale = 1;
         monster.loop = false;
-        AudioManager.Play("MonsterDie");
+        AudioManager.PlayOneShot("MonsterDie");
         yield return new WaitForSeconds(0.5f);
         player.AnimationName = "idle_1";
         player.timeScale = 1;
@@ -220,7 +220,7 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             lose++;
-            AudioManager.Play("Dead");
+            AudioManager.PlayOneShot("Dead");
             gamePlay.isLose = true;
         }
         if (collision.CompareTag("Obstacle"))
@@ -258,7 +258,7 @@ public class PlayerController : MonoBehaviour
         weapon.AnimationName = "dead_1";
         weapon.timeScale = 1;
         weapon.loop = false;
-        AudioManager.Play("Dead");
+        AudioManager.PlayOneShot("Dead");
         gamePlay.isLose = true;
     }
     IEnumerator MonsterAttack()
@@ -270,7 +270,7 @@ public class PlayerController : MonoBehaviour
         weapon.timeScale = 1;
         weapon.loop = false;
         yield return new WaitForSeconds(monsterAttack - 1.8f);
-        AudioManager.Play("MonsterAttack");
+        AudioManager.PlayOneShot("MonsterAttack");
         yield return new WaitForSeconds(1.2f);
         player.AnimationName = "dead_1";
         player.timeScale = 1;
@@ -278,7 +278,7 @@ public class PlayerController : MonoBehaviour
         weapon.AnimationName = "dead_1";
         weapon.timeScale = 1;
         weapon.loop = false;
-        AudioManager.Play("Dead");
+        AudioManager.PlayOneShot("Dead");
         gamePlay.isLose = true;
     }
     public void RandomWeapon(GameColor color)

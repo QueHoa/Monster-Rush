@@ -54,6 +54,7 @@ MonoBehaviour:
   numberWin: 0
   isLose: 0
   isStop: 0
+  isEnd: 0
   rank: 1
   path:
   - {fileID: 2694115782479483074}
@@ -140,7 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972957067778607679, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.93
+      value: 3.87
       objectReference: {fileID: 0}
     - target: {fileID: 3051001877953011595, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_Mesh

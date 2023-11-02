@@ -63,10 +63,8 @@ MonoBehaviour:
   isEnd: 0
   rank: 4
   path:
-  - {fileID: 0}
   - {fileID: 3527219113644865376}
   player:
-  - {fileID: 0}
   - {fileID: 1857829971846577127}
 --- !u!1 &6847077860209476248
 GameObject:
@@ -306,6 +304,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8014047274579077555}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
+      propertyPath: time
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: start
       value: 
       objectReference: {fileID: 6626916870123748071}
@@ -393,7 +395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972957066278228598, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.72
+      value: -2.24
       objectReference: {fileID: 0}
     - target: {fileID: 1972957066278228598, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -687,6 +689,10 @@ PrefabInstance:
       propertyPath: end
       value: 
       objectReference: {fileID: 1734468071232180823}
+    - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
+      propertyPath: time
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: start
       value: 

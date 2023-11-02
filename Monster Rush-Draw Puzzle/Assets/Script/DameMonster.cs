@@ -37,15 +37,7 @@ public class DameMonster : MonoBehaviour
             Move();
             move++;
         }
-        if(gamePlay.isStop)
-        {
-            moveTween.Kill();
-            monster.AnimationName = "idle";
-            monster.timeScale = 1;
-            monster.loop = true;
-            monster.Initialize(true);
-        }
-        if(gamePlay.isEnd)
+        if (gamePlay.isEnd || gamePlay.isLose)
         {
             moveTween.Kill();
             monster.AnimationName = "idle";

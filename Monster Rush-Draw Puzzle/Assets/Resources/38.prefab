@@ -274,6 +274,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   point:
   - {fileID: 1732707518869454069}
+  - {fileID: 5722344152506875640}
+  - {fileID: 6037994176732889271}
   - {fileID: 1732707518635443782}
   path: {fileID: 1732707517386726926}
   color: 1

@@ -61,10 +61,8 @@ MonoBehaviour:
   isEnd: 0
   rank: 4
   path:
-  - {fileID: 0}
   - {fileID: 3527219113644865376}
   player:
-  - {fileID: 0}
   - {fileID: 1857829971846577127}
 --- !u!1001 &1499225545484360503
 PrefabInstance:
@@ -81,6 +79,10 @@ PrefabInstance:
       propertyPath: end
       value: 
       objectReference: {fileID: 8014047274579077555}
+    - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
+      propertyPath: time
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: start
       value: 
@@ -459,10 +461,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1987001518262477782, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
+      propertyPath: m_Size.x
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: end
       value: 
       objectReference: {fileID: 1734468071232180823}
+    - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
+      propertyPath: time
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: start
       value: 

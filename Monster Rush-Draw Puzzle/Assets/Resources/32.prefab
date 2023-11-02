@@ -57,6 +57,7 @@ MonoBehaviour:
   numberWin: 0
   isLose: 0
   isStop: 0
+  isEnd: 0
   rank: 2
   path:
   - {fileID: 8014052242120489970}
@@ -90,8 +91,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7660423796126674169}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.11, y: 504, z: 0}
-  m_LocalScale: {x: 316.8972, y: 228, z: 228}
+  m_LocalPosition: {x: 5, y: 658, z: 0}
+  m_LocalScale: {x: 320, y: 300, z: 228}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1430936138576592518}
@@ -201,8 +202,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8249996632355627204}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8, y: 95.01, z: 0}
-  m_LocalScale: {x: 228, y: 273.6, z: 228}
+  m_LocalPosition: {x: -8, y: 117, z: 0}
+  m_LocalScale: {x: 228, y: 366.54193, z: 228}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1430936138576592518}
@@ -303,7 +304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972957066278228598, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.61
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 1972957066653359833, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_Name
@@ -359,7 +360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972957067778607679, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.17
+      value: 2.92
       objectReference: {fileID: 0}
     - target: {fileID: 1972957067778607679, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -423,7 +424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972957066278228598, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.56
+      value: 2.1399999
       objectReference: {fileID: 0}
     - target: {fileID: 1972957066653359833, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_Name

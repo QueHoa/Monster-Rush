@@ -173,6 +173,7 @@ MonoBehaviour:
   numberWin: 0
   isLose: 0
   isStop: 0
+  isEnd: 0
   rank: 3
   path:
   - {fileID: 3842332637026118740}
@@ -364,6 +365,10 @@ PrefabInstance:
       propertyPath: end
       value: 
       objectReference: {fileID: 6195391416808264693}
+    - target: {fileID: 2604676453066086115, guid: 22114ece8bd5a4e4ba46ccda9afb9556, type: 3}
+      propertyPath: time
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 2604676453066086115, guid: 22114ece8bd5a4e4ba46ccda9afb9556, type: 3}
       propertyPath: start
       value: 

@@ -169,6 +169,12 @@ public class WinGame : MonoBehaviour
             }
         }
         yield return new WaitForSeconds(0.7f);
+        Transform Level = mainController.transform.Find(mainController.numberPlaying.ToString() + "(Clone)");
+        if (Level != null)
+        {
+            Destroy(Level.gameObject);
+        }
+        mainController.numberPlaying++;
         for (int i = 0; i < 5; i++)
         {
             if (coin[i] != null)
@@ -177,6 +183,15 @@ public class WinGame : MonoBehaviour
             }
         }
         ChangeGold(100);
+        yield return new WaitForSeconds(0.8f);
+        anim.SetTrigger("hide");
+        effect.SetActive(false);
+        GameObject loadedPrefab = Resources.Load<GameObject>(mainController.numberPlaying.ToString());
+        GameObject level = Instantiate(loadedPrefab, mainController.transform);
+        level.transform.SetParent(mainController.transform, false);
+        mainController.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        gameObject.SetActive(false);
     }
     public void Next()
     {
@@ -220,6 +235,13 @@ public class WinGame : MonoBehaviour
     IEnumerator Hide2()
     {
         anim.SetTrigger("hide");
+        for (int i = 0; i < 5; i++)
+        {
+            if (coin[i] != null)
+            {
+                coin[i].SetActive(false);
+            }
+        }
         yield return new WaitForSeconds(0.1f);
         loading.SetActive(true);
         effect.SetActive(false);

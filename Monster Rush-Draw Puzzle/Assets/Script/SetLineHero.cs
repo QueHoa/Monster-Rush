@@ -19,7 +19,7 @@ public class SetLineHero : MonoBehaviour
         line = GetComponent<LineRenderer>();
 
         // Thiết lập các thuộc tính của LineRenderer
-        line.positionCount = 2; // Số điểm trong đường thẳng
+        line.positionCount = point.Length; // Số điểm trong đường thẳng
         line.startWidth = 0.1f; // Độ rộng ở đầu đường thẳng
         line.endWidth = 0.1f; // Độ rộng ở cuối đường thẳng
         line.material = new Material(Shader.Find("Sprites/Default")); // Đặt vật liệu cho đường thẳng
@@ -38,8 +38,10 @@ public class SetLineHero : MonoBehaviour
             line.endColor = yellow; // Màu ở cuối
         }
 
-        line.SetPosition(0, point[0].position);
-        line.SetPosition(1, point[1].position);
+        for (int i = 0; i < point.Length; i++)
+        {
+            line.SetPosition(i, point[i].position);
+        }
         path.positions = new Vector3[line.positionCount];
         line.GetPositions(path.positions);
         path.pathLength = CalculatePathLength();

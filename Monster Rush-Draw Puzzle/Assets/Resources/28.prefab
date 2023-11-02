@@ -143,6 +143,7 @@ MonoBehaviour:
   numberWin: 0
   isLose: 0
   isStop: 0
+  isEnd: 0
   rank: 4
   path:
   - {fileID: 1428079406832862674}
@@ -317,7 +318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972957067778607679, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.71
+      value: -4.16
       objectReference: {fileID: 0}
     - target: {fileID: 3628278845861551856, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: gamePlay
@@ -367,6 +368,10 @@ PrefabInstance:
       propertyPath: end
       value: 
       objectReference: {fileID: 8320761094102219379}
+    - target: {fileID: 2604676453066086115, guid: 22114ece8bd5a4e4ba46ccda9afb9556, type: 3}
+      propertyPath: time
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 2604676453066086115, guid: 22114ece8bd5a4e4ba46ccda9afb9556, type: 3}
       propertyPath: start
       value: 
@@ -535,7 +540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972957067778607679, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.8100002
+      value: -4.26
       objectReference: {fileID: 0}
     - target: {fileID: 3628278845861551856, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
       propertyPath: color
