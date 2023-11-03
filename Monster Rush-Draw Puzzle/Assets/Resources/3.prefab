@@ -166,6 +166,7 @@ MonoBehaviour:
   numberWin: 0
   isLose: 0
   isStop: 0
+  isEnd: 0
   rank: 2
   path:
   - {fileID: 7827764140527542522}

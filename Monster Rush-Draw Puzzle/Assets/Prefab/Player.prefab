@@ -473,11 +473,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6890560a7c8bcd4abeb6b03afb05192, type: 2}
-  - {fileID: 2100000, guid: 3ccb9eb2600ceb14bb9e80f2407a2535, type: 2}
-  - {fileID: 2100000, guid: c6890560a7c8bcd4abeb6b03afb05192, type: 2}
-  - {fileID: 2100000, guid: 82d8e6d1c60099e47b34d67eff0b13f4, type: 2}
-  - {fileID: 2100000, guid: c6890560a7c8bcd4abeb6b03afb05192, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -660,6 +656,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5131192ee2b942e4a8e36b83fbbe4d73, type: 3}
   - {fileID: 21300000, guid: 3b4ee4e79d1a1ae459093117a2d7341b, type: 3}
   - {fileID: 21300000, guid: 92b6b839d6b2e9b4186006e9b0a2a7db, type: 3}
+  hapticTypes: 3
   swap: 0
 --- !u!1 &1972957067778607678
 GameObject:
@@ -756,7 +753,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c3580176bbbda8b45a6a7bbd44bd8988, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

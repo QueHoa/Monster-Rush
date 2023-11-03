@@ -56,6 +56,7 @@ MonoBehaviour:
   numberWin: 0
   isLose: 0
   isStop: 0
+  isEnd: 0
   rank: 4
   path:
   - {fileID: 8136099871357785515}
