@@ -212,6 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae04bdd45c8a2243be40266e7c954ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gamePlay: {fileID: 1430936138576592519}
   point:
   - {fileID: 1798965886515392775}
   - {fileID: 1288181566702024806}

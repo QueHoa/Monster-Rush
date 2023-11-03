@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae04bdd45c8a2243be40266e7c954ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gamePlay: {fileID: 7680635222245991525}
   point:
   - {fileID: 8589487026355496302}
   - {fileID: 7304959753914577381}
@@ -394,7 +395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   point:
   - {fileID: 4861425164527918853}
-  - {fileID: 8589487027190783965}
+  - {fileID: 7042389762129138006}
   positions: []
 --- !u!1001 &6965955829342535534
 PrefabInstance:
@@ -756,6 +757,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad883be7a2e5b746bd63ca1dc208c2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &7042389762129138006 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1972957067778607679, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}
+  m_PrefabInstance: {fileID: 8852601128786090857}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7042389763134588339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1972957066653359834, guid: de8fd9966d3191c45a80881de96f4cd4, type: 3}

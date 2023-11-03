@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using DG.Tweening;
 using Spine.Unity;
 using System.Threading.Tasks;
+using MoreMountains.NiceVibrations;
 using OneHit.Framework;
 
 public class PlayerController : MonoBehaviour
@@ -23,10 +24,12 @@ public class PlayerController : MonoBehaviour
     public SpriteRenderer startPlace;
     public SpriteRenderer place;
     public Sprite[] colorPlace;
-
+    public HapticTypes hapticTypes = HapticTypes.Failure;
+    
     [HideInInspector]
     public bool swap;
 
+    private bool hapticsAllowed = true;
     private MainController mainController;
     private int numberWeapon;
     private int stop;
@@ -38,6 +41,7 @@ public class PlayerController : MonoBehaviour
     private float oldPos;
     private float timeAttack;
     private float monsterAttack;
+    private int isVibrate;
     private string attack;
     private string weaponName;
     private string skinHero;
@@ -51,8 +55,10 @@ public class PlayerController : MonoBehaviour
     {
         skinHero = PlayerPrefs.GetString("skinHero");
         skinMonster = PlayerPrefs.GetString("skinMonster");
+        isVibrate = PlayerPrefs.GetInt("VibrateOn");
         monster.skeletonDataAsset = GameManager.Instance.skeletonMonster;
         monsterAttack = GameManager.Instance.timeAttack;
+        MMVibrationManager.SetHapticsActive(hapticsAllowed);
         if (color == GameColor.Blue)
         {
             place.sprite = colorPlace[0];
@@ -163,7 +169,6 @@ public class PlayerController : MonoBehaviour
         weapon.AnimationName = "run";
         player.timeScale = path.pathLength * 1.2f;
         weapon.timeScale = path.pathLength * 1.2f;
-        Debug.Log(path.pathLength);
         AudioManager.Play("Walk");
         player.Initialize(true);
         moveTween = transform.DOPath(path.positions, time, PathType.Linear).SetEase(Ease.Linear)
@@ -240,6 +245,10 @@ public class PlayerController : MonoBehaviour
                 transform.localScale = new Vector3(-0.9f, 0.9f, 1);
             }
             StartCoroutine(MonsterAttack());
+        }
+        if (isVibrate == 1)
+        {
+            MMVibrationManager.Haptic(hapticTypes, true, true, this);
         }
     }
     IEnumerator EffectObstacle(Vector3 effectPosition)

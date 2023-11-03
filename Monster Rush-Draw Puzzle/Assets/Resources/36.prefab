@@ -56,6 +56,7 @@ MonoBehaviour:
   numberWin: 0
   isLose: 0
   isStop: 0
+  isEnd: 0
   rank: 3
   path:
   - {fileID: 4872147123665508911}
@@ -207,6 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae04bdd45c8a2243be40266e7c954ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gamePlay: {fileID: 6783050324439307759}
   point:
   - {fileID: 4069746782767602772}
   - {fileID: 4069746781994378983}

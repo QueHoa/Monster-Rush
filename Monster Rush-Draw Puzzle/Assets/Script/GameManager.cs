@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
         Input.multiTouchEnabled = false;
         Instance = this;
         noLoading = 0;
-        //PlayerPrefs.SetInt("levelsUnlocked", 5);
+        //PlayerPrefs.SetInt("levelsUnlocked", 100);
         if (!PlayerPrefs.HasKey("levelsUnlocked"))
         {
             PlayerPrefs.SetInt("levelsUnlocked", 1);

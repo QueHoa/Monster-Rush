@@ -69,7 +69,7 @@ public class WinGame : MonoBehaviour
         yield return new WaitForSeconds(0.8f);
         AudioManager.Play("GainCoin");
         coin = CoinPooler.instance.GetPoolCoin();
-        for (int i = 0; i < 5; i++)
+        for (int i = 5; i < 10; i++)
         {
             if (coin[i] != null)
             {
@@ -81,7 +81,7 @@ public class WinGame : MonoBehaviour
             }
         }
         yield return new WaitForSeconds(0.6f);
-        for (int i = 0; i < 5; i++)
+        for (int i = 5; i < 10; i++)
         {
             if (coin[i] != null)
             {
@@ -92,7 +92,7 @@ public class WinGame : MonoBehaviour
             }
         }
         yield return new WaitForSeconds(0.7f);
-        for (int i = 0; i < 5; i++)
+        for (int i = 5; i < 10; i++)
         {
             if (coin[i] != null)
             {
@@ -109,7 +109,7 @@ public class WinGame : MonoBehaviour
             numberGift = 0;
             StartCoroutine(EffectGift());
         }
-        if (mainController.numberPlaying == unlockedLevelsNumber)
+        if (mainController.numberPlaying == unlockedLevelsNumber && unlockedLevelsNumber != 100)
         {
             PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
         }
@@ -201,7 +201,15 @@ public class WinGame : MonoBehaviour
         {
             Destroy(Level.gameObject);
         }
-        mainController.numberPlaying++;
+        if (mainController.numberPlaying != 100)
+        {
+            mainController.numberPlaying++;
+        }
+        else
+        {
+            mainController.numberPlaying = 1;
+        }
+        
         for (int i = 0; i < 5; i++)
         {
             if (coin[i] != null)

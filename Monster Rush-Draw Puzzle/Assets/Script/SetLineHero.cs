@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SetLineHero : MonoBehaviour
 {
+    public GamePlay gamePlay;
     public Transform[] point;
     public DrawPath path;
     public GameColor color;
@@ -49,6 +50,10 @@ public class SetLineHero : MonoBehaviour
     void Update()
     {
         path.locked = true;
+        if (gamePlay.isEnd)
+        {
+            ResetLine();
+        }
     }
     public float CalculatePathLength()
     {
@@ -63,5 +68,9 @@ public class SetLineHero : MonoBehaviour
         }
 
         return totalLength;
+    }
+    public void ResetLine()
+    {
+        line.positionCount = 0;
     }
 }

@@ -242,6 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae04bdd45c8a2243be40266e7c954ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gamePlay: {fileID: 2464956870716303927}
   point:
   - {fileID: 6523488752365081438}
   - {fileID: 6615654197639535500}
@@ -639,7 +640,7 @@ PrefabInstance:
       objectReference: {fileID: 576741083058899080}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: time
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: start

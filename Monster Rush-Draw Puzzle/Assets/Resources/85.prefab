@@ -62,10 +62,8 @@ MonoBehaviour:
   rank: 4
   path:
   - {fileID: 1386910272021115753}
-  - {fileID: 0}
   player:
   - {fileID: 4180517034688298990}
-  - {fileID: 0}
 --- !u!1001 &602939693695557918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -231,7 +229,7 @@ PrefabInstance:
       objectReference: {fileID: 95570451978801963}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: time
-      value: 6
+      value: 7.2
       objectReference: {fileID: 0}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: start
@@ -385,7 +383,7 @@ PrefabInstance:
       objectReference: {fileID: 4735432803937389124}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: time
-      value: 6
+      value: 7.2
       objectReference: {fileID: 0}
     - target: {fileID: 2143686984847901898, guid: 3de996712e4747d4b94d18ace7fc179d, type: 3}
       propertyPath: start

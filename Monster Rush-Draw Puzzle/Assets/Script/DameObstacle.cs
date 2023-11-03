@@ -27,7 +27,7 @@ public class DameObstacle : MonoBehaviour
             moveTween = transform.DOMove(end.position, time).SetEase(Ease.Linear).SetLoops(-1, LoopType.Yoyo);
             move = 1;
         }
-        if (gamePlay.isLose || gamePlay.isStop)
+        if (gamePlay.isLose || gamePlay.isStop || gamePlay.isEnd)
         {
             moveTween.Kill();
         }
