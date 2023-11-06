@@ -13,8 +13,9 @@ public class StartLoading : MonoBehaviour
     public CanvasGroup alpha;
     private float time;
     private int number;
-    private void OnEnable()
+    void Awake()
     {
+        Application.targetFrameRate = 60;
         loadingBar.fillAmount = 0;
         number = 0;
         time = 0;
