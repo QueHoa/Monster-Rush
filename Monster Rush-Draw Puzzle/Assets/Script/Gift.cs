@@ -20,15 +20,13 @@ public class Gift : MonoBehaviour
     }
     private void OnEnable()
     {
-        AudioManager.Play("Congratulation");
         anim = GetComponent<Animator>();
         anim.SetTrigger("show");
         charactor.sprite = card.charactor;
-        StartCoroutine(StartEffect());
     }
-    IEnumerator StartEffect()
+    public void Effect()
     {
-        yield return new WaitForSeconds(0.9f);
+        AudioManager.Play("Congratulation");
         fireWork.SetActive(true);
     }
 

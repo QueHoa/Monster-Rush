@@ -123,19 +123,19 @@ public class WinGame : MonoBehaviour
             charactorHero.sprite = gameManager.card[numberCharactor].charactor;
             panelGiftHero.gameObject.SetActive(true);
             panelGiftHero.SetTrigger("show");
-            AudioManager.Play("Congratulation");
         }
         if (gameManager.card[numberCharactor].GetItem(gameManager.card[numberCharactor].ItemType) == "monster")
         {
             charactorMonster.sprite = gameManager.card[numberCharactor].charactor;
             panelGiftMonster.gameObject.SetActive(true);
             panelGiftMonster.SetTrigger("show");
-            AudioManager.Play("Congratulation");
         }
         yield return new WaitForSeconds(0.5f);
         textGift.text = numberGift.ToString() + "%";
         progressBar.fillAmount = (float)numberGift / 100;
         PlayerPrefs.SetInt("giftWin", numberGift);
+        yield return new WaitForSeconds(0.3f);
+        AudioManager.Play("Congratulation");
     }
     public void GetCoin()
     {

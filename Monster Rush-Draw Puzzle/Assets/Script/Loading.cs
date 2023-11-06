@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,8 @@ public class Loading : MonoBehaviour
     private int number;
     private void OnEnable()
     {
-        alpha.alpha = 1;
+        alpha.alpha = 0;
+        DOTween.To(() => alpha.alpha, x => alpha.alpha = x, 1, 0.5f);
         loadingBar.fillAmount = 0;
         number = 0;
         time = 0;
@@ -21,7 +23,10 @@ public class Loading : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        time += 0.3f * Time.deltaTime;
+        if(alpha.alpha == 1)
+        {
+            time += 0.3f * Time.deltaTime;
+        }
         float a = curve.Evaluate(time);
         loadingBar.fillAmount = a;
         number = Mathf.RoundToInt(a * 100);
