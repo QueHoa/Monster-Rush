@@ -15,7 +15,7 @@ public class Loading : MonoBehaviour
     private void OnEnable()
     {
         alpha.alpha = 0;
-        DOTween.To(() => alpha.alpha, x => alpha.alpha = x, 1, 0.5f);
+        DOTween.To(() => alpha.alpha, x => alpha.alpha = x, 1, 0.2f);
         loadingBar.fillAmount = 0;
         number = 0;
         time = 0;

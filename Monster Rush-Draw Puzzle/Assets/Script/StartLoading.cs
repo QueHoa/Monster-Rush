@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StartLoading : MonoBehaviour
 {
-    public GameObject home;
     public AnimationCurve curve;
     public GameObject logo;
     public Image loadingBar;
@@ -34,11 +34,10 @@ public class StartLoading : MonoBehaviour
         loadingText.text = number.ToString() + "%";
         if (loadingBar.fillAmount >= 0.995f)
         {
-            home.SetActive(true);
             alpha.alpha -= 1.2f * Time.deltaTime;
-            if (alpha.alpha <= 0f)
+            if (alpha.alpha <= 0.5f)
             {
-                gameObject.SetActive(false);
+                SceneManager.LoadScene("Main");
             }
         }
     }
