@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public MainController mainController;
     public HomeController homeController;
-    public GameObject loading;
     public GameObject winGame;
     public GameObject loseGame;
     public List<Card> card = new List<Card>();
@@ -33,7 +32,6 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public int isSound;
 
-    private int noLoading;
     private int unlockedLevelsNumber;
     private string skinMonster;
     // Start is called before the first frame update
@@ -77,7 +75,6 @@ public class GameManager : MonoBehaviour
     {
         Input.multiTouchEnabled = false;
         Instance = this;
-        noLoading = 0;
         //PlayerPrefs.SetInt("levelsUnlocked", 100);
         if (!PlayerPrefs.HasKey("levelsUnlocked"))
         {
@@ -124,10 +121,9 @@ public class GameManager : MonoBehaviour
         isMusic = PlayerPrefs.GetInt("MusicOn");
         isSound = PlayerPrefs.GetInt("SoundOn");
         isVibrate = PlayerPrefs.GetInt("VibrateOn");
-        if (!loading.activeInHierarchy && noLoading == 0 && isMusic == 1)
+        if (isMusic == 1)
         {
             AudioManager.PlayBGM();
-            noLoading++;
         }
         skinMonster = PlayerPrefs.GetString("skinMonster");
         for (int i = 0; i < boxMonster.childCount; i++)

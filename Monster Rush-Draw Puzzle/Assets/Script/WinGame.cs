@@ -24,7 +24,9 @@ public class WinGame : MonoBehaviour
     public Image progressBar;
     public Text textGift;
     public Button getCoin;
+
     private Animator anim;
+    private GameObject level;
     private int unlockedLevelsNumber;
     private int numberGold;
     private int numberGift;
@@ -59,6 +61,7 @@ public class WinGame : MonoBehaviour
         PlayerPrefs.SetInt("gold", numberGold);
         anim.SetTrigger("show");
         getCoin.gameObject.SetActive(true);
+        level = mainController.level;
     }
     IEnumerator StartEffect()
     {
@@ -109,7 +112,7 @@ public class WinGame : MonoBehaviour
             numberGift = 0;
             StartCoroutine(EffectGift());
         }
-        if (mainController.numberPlaying == unlockedLevelsNumber && unlockedLevelsNumber != 100)
+        if (unlockedLevelsNumber != 100)
         {
             PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
         }
@@ -169,10 +172,9 @@ public class WinGame : MonoBehaviour
             }
         }
         yield return new WaitForSeconds(0.7f);
-        Transform Level = mainController.transform.Find(mainController.numberPlaying.ToString() + "(Clone)");
-        if (Level != null)
+        if (level != null)
         {
-            Destroy(Level.gameObject);
+            Destroy(level);
         }
         mainController.numberPlaying++;
         for (int i = 0; i < 5; i++)
@@ -187,8 +189,7 @@ public class WinGame : MonoBehaviour
         anim.SetTrigger("hide");
         effect.SetActive(false);
         GameObject loadedPrefab = Resources.Load<GameObject>(mainController.numberPlaying.ToString());
-        GameObject level = Instantiate(loadedPrefab, mainController.transform);
-        level.transform.SetParent(mainController.transform, false);
+        level = Instantiate(loadedPrefab);
         mainController.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);
@@ -196,10 +197,9 @@ public class WinGame : MonoBehaviour
     public void Next()
     {
         AudioManager.Play("Click");
-        Transform Level = mainController.transform.Find(mainController.numberPlaying.ToString() + "(Clone)");
-        if (Level != null)
+        if (level != null)
         {
-            Destroy(Level.gameObject);
+            Destroy(level.gameObject);
         }
         if (mainController.numberPlaying != 100)
         {
@@ -224,8 +224,7 @@ public class WinGame : MonoBehaviour
         anim.SetTrigger("hide");
         effect.SetActive(false);
         GameObject loadedPrefab = Resources.Load<GameObject>(mainController.numberPlaying.ToString());
-        GameObject level = Instantiate(loadedPrefab, mainController.transform);
-        level.transform.SetParent(mainController.transform, false);
+        level = Instantiate(loadedPrefab);
         mainController.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);
@@ -233,10 +232,9 @@ public class WinGame : MonoBehaviour
     public void BackHome()
     {
         AudioManager.Play("Click");
-        Transform Level = mainController.transform.Find(mainController.numberPlaying.ToString() + "(Clone)");
-        if (Level != null)
+        if (level != null)
         {
-            Destroy(Level.gameObject);
+            Destroy(level.gameObject);
         }
         StartCoroutine(Hide2());
     }

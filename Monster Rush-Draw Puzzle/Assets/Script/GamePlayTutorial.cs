@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GamePlay : MonoBehaviour
+public class GamePlayTutorial : MonoBehaviour
 {
     //[HideInInspector]
     public bool isMove;
@@ -19,6 +19,7 @@ public class GamePlay : MonoBehaviour
 
     public DrawPath[] path;
     public PlayerController[] player;
+    public GameObject[] line;
 
     private MainController mainController;
     private GameObject winGame;
@@ -86,6 +87,35 @@ public class GamePlay : MonoBehaviour
                 path[i].ResetLine();
             }
             mainController.swap = false;
+        }
+        for (int i = 0; i < line.Length; i++)
+        {
+            if (path[i].isDrawing)
+            {
+                for (int j = 0; j < line.Length; j++)
+                {
+                    line[j].SetActive(false);
+                }
+                break;
+            }
+            if (i == line.Length - 1 && !path[i].isDrawing)
+            {
+                for (int j = 0; j < line.Length; j++)
+                {
+                    line[j].SetActive(true);
+                }
+            }
+        }
+        for (int i = 0; i < line.Length; i++)
+        {
+            if (path[i].locked)
+            {
+                for (int j = 0; j < line.Length; j++)
+                {
+                    line[j].SetActive(false);
+                }
+                break;
+            }
         }
     }
     IEnumerator WinGame()

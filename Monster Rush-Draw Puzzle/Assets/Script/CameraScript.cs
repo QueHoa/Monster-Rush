@@ -10,19 +10,7 @@ public class CameraScript : MonoBehaviour
     void Start()
     {
         img = GetComponent<SpriteRenderer>();
-        Debug.Log(img.bounds.size.x);
-        float screenRatio = (float)Screen.width / (float)Screen.height;
-        float targetRatio = img.bounds.size.x / img.bounds.size.y;
-
-        if (screenRatio >= targetRatio)
-        {
-            Camera.main.orthographicSize = img.bounds.size.y / 2;
-        }
-        else
-        {
-            float differenceInSize = targetRatio / screenRatio;
-            Camera.main.orthographicSize = img.bounds.size.y / 2 * differenceInSize;
-        }
+        Camera.main.orthographicSize = img.bounds.size.x * Screen.height / Screen.width * 0.5f;
     }
 
     // Update is called once per frame

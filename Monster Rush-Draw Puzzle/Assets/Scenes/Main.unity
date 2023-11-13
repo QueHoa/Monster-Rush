@@ -876,7 +876,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainController: {fileID: 1950137548}
   homeController: {fileID: 867717345}
-  loading: {fileID: 0}
   winGame: {fileID: 1922884391}
   loseGame: {fileID: 791280414}
   card:
@@ -23051,6 +23050,7 @@ MonoBehaviour:
   numberPlaying: 0
   numberRank: 0
   swap: 0
+  level: {fileID: 0}
   home: {fileID: 867717343}
   loading: {fileID: 162948577}
   rank:

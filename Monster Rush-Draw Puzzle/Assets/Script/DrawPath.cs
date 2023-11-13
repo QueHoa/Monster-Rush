@@ -15,6 +15,8 @@ public class DrawPath : MonoBehaviour
     public Vector3[] positions;
     [HideInInspector]
     public float pathLength;
+    [HideInInspector]
+    public bool isDrawing = false;
     public Transform hero;
 
     [SerializeField]
@@ -28,7 +30,7 @@ public class DrawPath : MonoBehaviour
     [SerializeField, Range(0, 2)]
     private float width;
     private int isTouch;
-    private bool isDrawing = false;
+    
     // Start is called before the first frame update
     void Start()
     {

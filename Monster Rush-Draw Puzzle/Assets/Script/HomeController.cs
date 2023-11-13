@@ -49,10 +49,6 @@ public class HomeController : MonoBehaviour
         heroPaticle.SetActive(false);
         loading.SetActive(true);
         yield return new WaitForSeconds(0.5f);
-        GameObject loadedPrefab = Resources.Load<GameObject>(unlockedLevelsNumber.ToString());
-        GameObject level = Instantiate(loadedPrefab, mainController.transform);
-        level.transform.SetParent(mainController.transform, false);
-        mainController.numberPlaying = unlockedLevelsNumber;
         mainController.gameObject.SetActive(true);
         gameObject.SetActive(false);
     }

@@ -1,3 +1,4 @@
+﻿using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,7 +38,8 @@ public class StartLoading : MonoBehaviour
             alpha.alpha -= 1.2f * Time.deltaTime;
             if (alpha.alpha <= 0.5f)
             {
-                SceneManager.LoadScene("Main");
+                SceneManager.LoadSceneAsync("Main");
+                gameObject.SetActive(false);
             }
         }
     }

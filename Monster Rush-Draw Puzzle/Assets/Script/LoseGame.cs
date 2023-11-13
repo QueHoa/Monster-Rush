@@ -16,6 +16,8 @@ public class LoseGame : MonoBehaviour
     public Text textGold;
     public Text textGift;
     public Button skipLevel;
+
+    private GameObject level;
     private Animator anim;
     private int unlockedLevelsNumber;
     private int numberGold;
@@ -45,6 +47,7 @@ public class LoseGame : MonoBehaviour
         player.initialSkinName = "Skin/" + skinHero + "_blue";
         player.AnimationName = "dead_2";
         player.Initialize(true);
+        level = mainController.level;
     }
     // Update is called once per frame
     void Update()
@@ -54,25 +57,19 @@ public class LoseGame : MonoBehaviour
     public void Skip()
     {
         AudioManager.Play("Click");
-        if (mainController.numberPlaying == unlockedLevelsNumber)
+        PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
+        if (level != null)
         {
-            PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
+            Destroy(level);
         }
-        Transform Level = mainController.transform.Find(mainController.numberPlaying.ToString() + "(Clone)");
-        if (Level != null)
-        {
-            Destroy(Level.gameObject);
-        }
-        mainController.numberPlaying++;
         StartCoroutine(Hide());
     }
     public void Replay()
     {
         AudioManager.Play("Click");
-        Transform Level = mainController.transform.Find(mainController.numberPlaying.ToString() + "(Clone)");
-        if (Level != null)
+        if (level != null)
         {
-            Destroy(Level.gameObject);
+            Destroy(level);
         }
         
         StartCoroutine(Hide());
@@ -80,9 +77,8 @@ public class LoseGame : MonoBehaviour
     IEnumerator Hide()
     {
         anim.SetTrigger("hide");
-        GameObject loadedPrefab = Resources.Load<GameObject>(mainController.numberPlaying.ToString());
-        GameObject level = Instantiate(loadedPrefab, mainController.transform);
-        level.transform.SetParent(mainController.transform, false);
+        GameObject loadedPrefab = Resources.Load<GameObject>(unlockedLevelsNumber.ToString());
+        level = Instantiate(loadedPrefab);
         mainController.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);
@@ -90,10 +86,9 @@ public class LoseGame : MonoBehaviour
     public void BackHome()
     {
         AudioManager.Play("Click");
-        Transform Level = mainController.transform.Find(mainController.numberPlaying.ToString() + "(Clone)");
-        if (Level != null)
+        if (level != null)
         {
-            Destroy(Level.gameObject);
+            Destroy(level);
         }
         StartCoroutine(Hide2());
     }
