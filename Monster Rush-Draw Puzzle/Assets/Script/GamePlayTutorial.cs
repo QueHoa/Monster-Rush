@@ -18,7 +18,7 @@ public class GamePlayTutorial : MonoBehaviour
     public int rank;
 
     public DrawPath[] path;
-    public PlayerController[] player;
+    public PlayerControllerTutorial[] player;
     public GameObject[] line;
 
     private MainController mainController;

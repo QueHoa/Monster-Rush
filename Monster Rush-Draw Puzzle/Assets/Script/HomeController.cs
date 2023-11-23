@@ -15,21 +15,21 @@ public class HomeController : MonoBehaviour
     public GameObject loading;
     public GameObject shop;
     public Text textGold;
+    public int numberLevel;
 
-    private int unlockedLevelsNumber;
     private int numberGold;
     // Start is called before the first frame update
     void Start()
     {
         butPlay.DOScale(Vector3.one * 0.95f, 0.65f).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
         butShop.DORotate(new Vector3(0, 0, 4), 0.7f).SetEase(Ease.InOutSine).SetLoops(-1, LoopType.Yoyo);
+        GameManager.numberLevel = numberLevel;
     }
     private void OnEnable()
     {
         heroPaticle.SetActive(true);
         butPlay.localScale = Vector3.one;
         butShop.rotation = Quaternion.Euler(0, 0, -4);
-        unlockedLevelsNumber = PlayerPrefs.GetInt("levelsUnlocked");
         numberGold = PlayerPrefs.GetInt("gold");
     }
 

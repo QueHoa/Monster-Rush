@@ -57,7 +57,14 @@ public class LoseGame : MonoBehaviour
     public void Skip()
     {
         AudioManager.Play("Click");
-        PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
+        if (unlockedLevelsNumber != GameManager.numberLevel)
+        {
+            PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("levelsUnlocked", 1);
+        }
         if (level != null)
         {
             Destroy(level);
@@ -77,8 +84,6 @@ public class LoseGame : MonoBehaviour
     IEnumerator Hide()
     {
         anim.SetTrigger("hide");
-        GameObject loadedPrefab = Resources.Load<GameObject>(unlockedLevelsNumber.ToString());
-        level = Instantiate(loadedPrefab);
         mainController.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);
@@ -97,10 +102,6 @@ public class LoseGame : MonoBehaviour
         anim.SetTrigger("hide");
         yield return new WaitForSeconds(0.1f);
         loading.SetActive(true);
-        /*for (int i = 0; i < effect.Length; i++)
-        {
-            effect[i].SetActive(false);
-        }*/
         yield return new WaitForSeconds(0.7f);
         homeController.gameObject.SetActive(true);
         gameObject.SetActive(false);

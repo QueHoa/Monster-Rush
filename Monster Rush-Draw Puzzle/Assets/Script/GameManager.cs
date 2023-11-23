@@ -7,6 +7,8 @@ using Spine.Unity;
 
 public class GameManager : MonoBehaviour
 {
+    public static int numberLevel;
+
     public static GameManager Instance;
     public MainController mainController;
     public HomeController homeController;

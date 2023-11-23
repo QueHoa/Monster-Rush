@@ -95,12 +95,25 @@ public class WinGame : MonoBehaviour
             }
         }
         yield return new WaitForSeconds(0.7f);
+        if (level != null)
+        {
+            Destroy(level);
+        }
         for (int i = 5; i < 10; i++)
         {
             if (coin[i] != null)
             {
                 coin[i].SetActive(false);
             }
+        }
+
+        if (unlockedLevelsNumber != GameManager.numberLevel)
+        {
+            PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("levelsUnlocked", 1);
         }
         ChangeGold(50);
     }
@@ -111,10 +124,6 @@ public class WinGame : MonoBehaviour
         {
             numberGift = 0;
             StartCoroutine(EffectGift());
-        }
-        if (unlockedLevelsNumber != 100)
-        {
-            PlayerPrefs.SetInt("levelsUnlocked", unlockedLevelsNumber + 1);
         }
     }
     IEnumerator EffectGift()
@@ -172,11 +181,6 @@ public class WinGame : MonoBehaviour
             }
         }
         yield return new WaitForSeconds(0.7f);
-        if (level != null)
-        {
-            Destroy(level);
-        }
-        mainController.numberPlaying++;
         for (int i = 0; i < 5; i++)
         {
             if (coin[i] != null)
@@ -188,8 +192,6 @@ public class WinGame : MonoBehaviour
         yield return new WaitForSeconds(0.8f);
         anim.SetTrigger("hide");
         effect.SetActive(false);
-        GameObject loadedPrefab = Resources.Load<GameObject>(mainController.numberPlaying.ToString());
-        level = Instantiate(loadedPrefab);
         mainController.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);
@@ -201,15 +203,6 @@ public class WinGame : MonoBehaviour
         {
             Destroy(level.gameObject);
         }
-        if (mainController.numberPlaying != 100)
-        {
-            mainController.numberPlaying++;
-        }
-        else
-        {
-            mainController.numberPlaying = 1;
-        }
-        
         for (int i = 0; i < 5; i++)
         {
             if (coin[i] != null)
@@ -223,8 +216,6 @@ public class WinGame : MonoBehaviour
     {
         anim.SetTrigger("hide");
         effect.SetActive(false);
-        GameObject loadedPrefab = Resources.Load<GameObject>(mainController.numberPlaying.ToString());
-        level = Instantiate(loadedPrefab);
         mainController.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);

@@ -374,6 +374,7 @@ MonoBehaviour:
   locked: 0
   positions: []
   pathLength: 0
+  isDrawing: 0
   hero: {fileID: 1972957066943066252}
   endCollider: {fileID: 8862035868888750151}
   minDis: 0.01

@@ -38,7 +38,7 @@ public class StartLoading : MonoBehaviour
             alpha.alpha -= 1.2f * Time.deltaTime;
             if (alpha.alpha <= 0.5f)
             {
-                SceneManager.LoadSceneAsync("Main");
+                SceneManager.LoadScene("Main");
                 gameObject.SetActive(false);
             }
         }

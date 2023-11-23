@@ -11619,7 +11619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &867717344
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11669,6 +11669,7 @@ MonoBehaviour:
   loading: {fileID: 162948577}
   shop: {fileID: 1903931995}
   textGold: {fileID: 975946484}
+  numberLevel: 50
 --- !u!1 &878120165
 GameObject:
   m_ObjectHideFlags: 0
@@ -23003,7 +23004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1950137547
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23047,7 +23048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24202743ff80eb4dbf6a80c1773fd0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberPlaying: 0
   numberRank: 0
   swap: 0
   level: {fileID: 0}
@@ -24233,7 +24233,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 47
+  m_Text: 50
 --- !u!222 &2096366876
 CanvasRenderer:
   m_ObjectHideFlags: 0

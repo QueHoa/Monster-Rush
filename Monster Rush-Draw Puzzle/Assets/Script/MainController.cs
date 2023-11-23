@@ -7,8 +7,6 @@ using UnityEngine.UI;
 public class MainController : MonoBehaviour
 {
     [HideInInspector]
-    public int numberPlaying;
-    [HideInInspector]
     public int numberRank;
     [HideInInspector]
     public bool swap;
@@ -30,13 +28,13 @@ public class MainController : MonoBehaviour
 
     void Awake()
     {
-        unlockedLevelsNumber = PlayerPrefs.GetInt("levelsUnlocked");
+        
     }
     private void OnEnable()
     {
+        unlockedLevelsNumber = PlayerPrefs.GetInt("levelsUnlocked");
         GameObject loadedPrefab = Resources.Load<GameObject>(unlockedLevelsNumber.ToString());
         level = Instantiate(loadedPrefab);
-        numberPlaying = unlockedLevelsNumber;
         backHome.interactable = true;
         skipLevel.interactable = true;
         iconAds.interactable = true;

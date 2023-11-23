@@ -21,7 +21,7 @@ public class HandTutorial : MonoBehaviour
     }
     private void MoveHand()
     {
-        transform.DOMove(end.position, 1.2f).SetEase(Ease.OutQuart)
+        transform.DOMove(end.position, 1.8f).SetEase(Ease.OutQuart)
             .OnComplete(() =>
             {
                 transform.position = start.position;
