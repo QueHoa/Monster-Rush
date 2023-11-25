@@ -11669,7 +11669,7 @@ MonoBehaviour:
   loading: {fileID: 162948577}
   shop: {fileID: 1903931995}
   textGold: {fileID: 975946484}
-  numberLevel: 50
+  numberLevel: 75
 --- !u!1 &878120165
 GameObject:
   m_ObjectHideFlags: 0
@@ -23051,6 +23051,7 @@ MonoBehaviour:
   numberRank: 0
   swap: 0
   level: {fileID: 0}
+  ui: 0
   home: {fileID: 867717343}
   loading: {fileID: 162948577}
   rank:
@@ -23059,6 +23060,12 @@ MonoBehaviour:
   - {fileID: 1650970300}
   - {fileID: 1476215054}
   - {fileID: 11320334}
+  uis:
+  - {fileID: 1913130194}
+  - {fileID: 2135664942}
+  - {fileID: 163032579}
+  - {fileID: 1260906663}
+  - {fileID: 1737535731}
   backHome: {fileID: 2135664944}
   skipLevel: {fileID: 1260906665}
   iconAds: {fileID: 1539681217}

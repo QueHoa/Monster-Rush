@@ -7,8 +7,9 @@ public class HandTutorial : MonoBehaviour
 {
     public Transform start;
     public Transform end;
+    public HandTutorial hand;
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
         transform.position = start.position;
         MoveHand();
@@ -25,7 +26,16 @@ public class HandTutorial : MonoBehaviour
             .OnComplete(() =>
             {
                 transform.position = start.position;
-                MoveHand();
+                if(hand != null)
+                {
+                    hand.gameObject.SetActive(true);
+                    gameObject.SetActive(false);
+                }
+                else
+                {
+                    MoveHand();
+                }
+                
             });
     }
 }

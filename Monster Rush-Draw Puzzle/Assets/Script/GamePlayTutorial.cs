@@ -41,6 +41,7 @@ public class GamePlayTutorial : MonoBehaviour
         isLose = false;
         isStop = false;
         isEnd = false;
+        mainController.ui = false;
     }
 
     // Update is called once per frame
@@ -56,6 +57,7 @@ public class GamePlayTutorial : MonoBehaviour
             if(i == path.Length - 1 && path[i].locked)
             {
                 isMove = true;
+                mainController.ui = true;
             }
         }
         if (isMove && move == 0)

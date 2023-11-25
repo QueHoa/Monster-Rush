@@ -12,10 +12,13 @@ public class MainController : MonoBehaviour
     public bool swap;
     [HideInInspector]
     public GameObject level;
+    [HideInInspector]
+    public bool ui;
 
     public GameObject home;
     public GameObject loading;
     public GameObject[] rank;
+    public GameObject[] uis;
     public Button backHome;
     public Button skipLevel;
     public Button iconAds;
@@ -40,6 +43,7 @@ public class MainController : MonoBehaviour
         iconAds.interactable = true;
         reload.interactable = true;
         swap = false;
+        ui = true;
     }
     // Update is called once per frame
     void Update()
@@ -61,6 +65,20 @@ public class MainController : MonoBehaviour
             else
             {
                 rank[i].SetActive(false); ;
+            }
+        }
+        if (ui)
+        {
+            for (int i = 0; i < uis.Length; i++)
+            {
+                uis[i].SetActive(true);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < uis.Length; i++)
+            {
+                uis[i].SetActive(false);
             }
         }
         textLevel.text = "level " + unlockedLevelsNumber.ToString();
