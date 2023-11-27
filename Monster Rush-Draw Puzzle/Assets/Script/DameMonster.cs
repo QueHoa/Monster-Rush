@@ -10,6 +10,7 @@ public class DameMonster : MonoBehaviour
     public SkeletonAnimation monster;
     public Transform start;
     public Transform end;
+    public GameObject danger;
     public float time;
 
     private Tween moveTween;
@@ -27,6 +28,7 @@ public class DameMonster : MonoBehaviour
         monster.Initialize(true);
         transform.position = start.position;
         move = 0;
+        danger.SetActive(true);
     }
 
     // Update is called once per frame
@@ -35,6 +37,7 @@ public class DameMonster : MonoBehaviour
         if (gamePlay.isMove && move == 0)
         {
             Move();
+            danger.SetActive(false);
             move++;
         }
         if (gamePlay.isEnd || gamePlay.isLose)

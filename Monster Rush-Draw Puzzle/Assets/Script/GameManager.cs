@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public MainController mainController;
     public HomeController homeController;
+    public GameObject home;
+    public GameObject main;
     public GameObject winGame;
     public GameObject loseGame;
     public List<Card> card = new List<Card>();
@@ -77,7 +79,7 @@ public class GameManager : MonoBehaviour
     {
         Input.multiTouchEnabled = false;
         Instance = this;
-        //PlayerPrefs.SetInt("levelsUnlocked", 100);
+        //PlayerPrefs.SetInt("levelsUnlocked", 1);
         if (!PlayerPrefs.HasKey("levelsUnlocked"))
         {
             PlayerPrefs.SetInt("levelsUnlocked", 1);
@@ -115,6 +117,23 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt("VibrateOn", 1);
         }
         unlockedLevelsNumber = PlayerPrefs.GetInt("levelsUnlocked");
+        skinMonster = PlayerPrefs.GetString("skinMonster");
+        for (int i = 0; i < boxMonster.childCount; i++)
+        {
+            if (boxMonster.GetChild(i).GetComponent<ChooseMonster>().card.name == skinMonster)
+            {
+                skeletonMonster = boxMonster.GetChild(i).GetComponent<ChooseMonster>().card.skeletonDataAsset;
+                timeAttack = boxMonster.GetChild(i).GetComponent<ChooseMonster>().card.timeAttack;
+            }
+        }
+        if (unlockedLevelsNumber == 1)
+        {
+            main.SetActive(true);
+        }
+        else
+        {
+            home.SetActive(true);
+        }
     }
 
     // Update is called once per frame

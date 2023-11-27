@@ -876,6 +876,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainController: {fileID: 1950137548}
   homeController: {fileID: 867717345}
+  home: {fileID: 867717343}
+  main: {fileID: 1950137546}
   winGame: {fileID: 1922884391}
   loseGame: {fileID: 791280414}
   card:
@@ -11619,7 +11621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &867717344
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11669,7 +11671,7 @@ MonoBehaviour:
   loading: {fileID: 162948577}
   shop: {fileID: 1903931995}
   textGold: {fileID: 975946484}
-  numberLevel: 75
+  numberLevel: 100
 --- !u!1 &878120165
 GameObject:
   m_ObjectHideFlags: 0
@@ -14888,6 +14890,7 @@ GameObject:
   - component: {fileID: 1260906666}
   - component: {fileID: 1260906665}
   - component: {fileID: 1260906668}
+  - component: {fileID: 1260906669}
   m_Layer: 5
   m_Name: ButtonSkip
   m_TagString: Untagged
@@ -15023,6 +15026,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scale: 0.95
+--- !u!95 &1260906669
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260906663}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eced31190b643e949aadae41711b95e3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1266827543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18118,7 +18141,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -21.3, y: 12.4}
+  m_AnchoredPosition: {x: -21.3, y: 12.400002}
   m_SizeDelta: {x: 55, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1539681215
