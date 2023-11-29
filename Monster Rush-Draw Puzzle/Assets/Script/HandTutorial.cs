@@ -25,17 +25,18 @@ public class HandTutorial : MonoBehaviour
         transform.DOMove(end.position, 1.8f).SetEase(Ease.OutQuart)
             .OnComplete(() =>
             {
-                transform.position = start.position;
                 if(hand != null)
                 {
                     hand.gameObject.SetActive(true);
                     gameObject.SetActive(false);
                 }
-                else
+                if (hand == null)
                 {
+                    transform.DOKill();
+                    Debug.Log("haha");
+                    transform.position = start.position;
                     MoveHand();
                 }
-                
             });
     }
 }

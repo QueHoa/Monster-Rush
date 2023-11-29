@@ -1,0 +1,3 @@
+cần chỉnh  lại hết các layer trong anim hero vì nó bị đè lên nhau
+vẽ thêm 1 art kí hiệu nguy hiểm có hình tam giác
+thêm art 1 đường thẳng có nhiều net đứt 
